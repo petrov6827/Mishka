@@ -1,14 +1,13 @@
 module.exports = function(grunt) {
-    grunt.loadNpmTasks("grunt-sass");
-
     grunt.initConfig({
         sass: {
             style: {
                 files: {
-                    "css/style.css": "sass/style.scss"
+                    ['css/style.css'] : ['sass/style.scss']
                 }
             }
         }
     });
 
+    grunt.loadNpmTasks("grunt-contrib-sass");
 };
