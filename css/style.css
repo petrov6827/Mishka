@@ -1,96 +1,18 @@
-.page-header {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    overflow: auto;
-}
-
-@mobile {
-    max-width: 320px;
-}
-
-@tablet {
-    max-width:;
-}
-
-@desktop {
-    max-width:;         
-}
-
-@media @mobile {
-    .page-header {
-        max-width: 320px;
-    }
-}
-
-.main-nav__close {
-    background: url('img/menu-close.png') no-repeat center;
-    visibility: hidden;
-}
-
-.main-nav__toggle {
-    float: left;
-    margin-left: 65px;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: "Tahoma";
-    font-weight: lighter;
-    color: black;
-}
+@main-color {
+  background-color: white; }
 
 .mishka-logo-mobile {
-    display: none;
-    width: 102px;
-    float: left;  
-    margin-left: 115px;
- }
+  width: 320px;
+  height: 36px;
+  position: absolute;
+  margin: 0 auto;
+  background-color: green; }
 
-.mishka-logo-mobile--active {
-    display: block;
-}
+.main-nav {
+  width: 320px;
+  margin: 0 auto; }
 
-.main-nav__close {
-    background: url('img/menu-close.png') no-repeat center;
-}
-
-.main-nav__items {
-    list-style-type: none;
-}
-
-.main-nav--closed {
-    visibility: visible;  /* изменить на хидден */
-}
-
-
-
-.main-nav__item {
-    color: (0,0,0);
-    font-size: 16px;
-    line-height: 24px;
-    color: rgb(0,0,0);
-    font-family: "Verdana";
-    font-weight: bold;
-    padding-top: 32px;
-    padding-left: 46px;
-    border-bottom: 2px solid (102,102,102);
-    text-decoration: none;
-    font-style: none;
-}
-
-.main-nav__item--cart {
-    position: absolute;
-    left: 30px;
-    vertical-align: middle;        
-}
-
-.main-nav__item--find {
-    position: absolute;
-    left: 30px;
-    vertical-align: middle;
-}
-
-.main {
-    background: url('img/hero-mobile.png') no-repeat center;
-    width: auto;
-}
+body {
+  background: #fff; }
+  body a {
+    color: white; }
