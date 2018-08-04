@@ -1,18 +1,25 @@
-@main-color {
-  background-color: white; }
-
 .mishka-logo-mobile {
+  display: inline-block;
   width: 320px;
   height: 36px;
   position: absolute;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.main__slogan {
+  height: auto;
+  width: 254px;
+  height: 338px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #231f20;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-align: center;
   background-color: green; }
 
 .main-nav {
   width: 320px;
   margin: 0 auto; }
 
-body {
-  background: #fff; }
-  body a {
-    color: white; }
+.main-nav--closed {
+  visibility: hidden; }

@@ -1,3 +1,12 @@
-@main-color {
-    background-color: white;
+@mixin cards() {
+    display: block;
+    vertical-align: top;
+}
+
+@mixin clearfix() {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }

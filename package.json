@@ -17,7 +17,7 @@
     "gulp-sass": "^4.0.1"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "start": "node your-script.js"
   },
   "repository": {
     "type": "git",
