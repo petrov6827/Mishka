@@ -3,4 +3,13 @@
   margin: 0 auto; }
 
 .main-nav--closed {
-  visibility: hidden; }
+  display: block; }
+
+.main-nav__toggle {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 40px;
+  font-style: none;
+  text-decoration: none;
+  width: 30px; }

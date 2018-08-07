@@ -14,12 +14,25 @@
   color: #231f20;
   font-family: "Verdana";
   font-weight: bold;
-  text-align: center;
-  background-color: green; }
+  text-align: center; }
 
 .main-nav {
   width: 320px;
   margin: 0 auto; }
 
 .main-nav--closed {
-  visibility: hidden; }
+  display: block; }
+
+.main-nav__toggle {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 40px;
+  font-style: none;
+  text-decoration: none;
+  width: 30px; }
+
+.logo-mobile {
+  width: 240px;
+  height: 38px;
+  margin: 0 auto; }
