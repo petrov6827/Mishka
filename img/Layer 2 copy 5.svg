@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
-	<defs>
-		<image width="320" height="79" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAABPAQMAAACgf46IAAAAA1BMVEX///+nxBvIAAAAGklEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAK4MDKcAATcQfRMAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Layer 2 copy 5" href="#img1" x="0" y="0" />
-</svg>
