@@ -5,17 +5,6 @@
   position: absolute;
   margin: 0 auto; }
 
-.main__slogan {
-  height: auto;
-  width: 254px;
-  height: 338px;
-  font-size: 24px;
-  line-height: 30px;
-  color: #231f20;
-  font-family: "Verdana";
-  font-weight: bold;
-  text-align: center; }
-
 @media (max-width: 320px) {
   .main-nav {
     margin: 0 auto; } }
@@ -57,6 +46,62 @@
 .main-nav__items {
   padding-left: 0; }
 
+.main__background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px; }
+
+.main__slogan {
+  position: absolute;
+  height: auto;
+  width: 254px;
+  height: 338px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #231f20;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 90px; }
+
+.main__interior {
+  position: absolute;
+  top: 300px;
+  background-color: #63d1bb;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-family: "Tahoma";
+  font-weight: bold;
+  width: 320px;
+  text-align: left;
+  padding: 25px;
+  border: none; }
+
+.interior__img {
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px; }
+
+.main__toy {
+  position: absolute;
+  top: 402px;
+  background-color: #55c3b2;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-family: "Tahoma";
+  font-weight: bold;
+  min-width: 320px;
+  text-align: left;
+  padding: 25px;
+  border: none; }
+
+.toy__img {
+  float: right;
+  margin-top: -30px; }
+
 .logo-mobile {
   width: 240px;
   margin: 0 auto;
@@ -71,6 +116,62 @@
   font-size: 30px;
   text-decoration: none;
   color: #000000; }
+
+.items {
+  content: "";
+  clear: both;
+  display: block;
+  min-width: 320px;
+  padding-left: 30px; }
+
+.items__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Verdana";
+  font-weight: bold;
+  padding-top: 40px; }
+
+.items__top-sales {
+  font-size: 16px;
+  line-height: 16px;
+  color: #34a998;
+  font-family: "Open Sans";
+  font-weight: bold; }
+
+.items__about,
+.items__baskets {
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  font-family: "Open Sans"; }
+
+.items__baskets {
+  padding-bottom: 30px; }
+
+.items__baskets td {
+  border-bottom: 1px solid #ececec; }
+
+.items__baskets td:nth-child(2) {
+  padding-left: 30px; }
+
+.items__picture {
+  text-align: center; }
+
+.items__price {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-align: center; }
+
+.items__buy {
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+  font-family: "Open Sans";
+  font-weight: bold;
+  width: 260px; }
 
 body {
   margin: 0; }

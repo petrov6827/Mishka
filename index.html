@@ -8,7 +8,8 @@
 
     <body>
         <header class="page-header">
-        <!--скрытое меню START-->
+            
+            <!--скрытое меню START-->
             <nav class="main-nav  main-nav--closed">
                 <div class="logo-mobile  logo-mobile--active">
                     <img src="img/mishka-logo-mobile.png" width="88px" height="36px">
@@ -24,18 +25,23 @@
                     </ul>
                 </div>
             </nav>
-        <!--скрытое меню END-->
+            <!--скрытое меню END-->
+
             <div class="logo-mobile">
                     <img src="img/mishka-logo-mobile.png">
                     <a href="#" class="logo-mobile__toggle">&#9776</a>
             </div>
-
         </header>
 
         <main>
-            <h1 class="main__slogan">Милые штуки ручной работы для дома</h1>
-            <button class="main__interior" type="button" href="#"><img class="interior__img" src="img/interior.svg.svg" width="40px" height="62px">Предметы интерьера</button>
-            <button class="main__toy" type="button" href="#"><img class="toy__img" src="img/toy-svg.svg">Детские игрушки</button>
+            <div class="main__background">
+                <h1 class="main__slogan">Милые штуки ручной работы для дома</h1>
+                
+                <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
+                <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
+                
+                <img src="img/hero-mobile.png" alt="Задний фон" width="575px" height="373px">
+            </div>
         </main>
 
         <section class="items">
@@ -57,7 +63,7 @@
                 </tr>
             </table>
             <div class="items__picture">
-                <img src="" alt="baskets">
+                <img src="img/basket.png" alt="baskets" width="260px" height="315px">
             </div>
             <p class="items__price">Цена: 990 руб.</p>
             <button class="items__buy btn" type="button" href="#">Заказать</button>

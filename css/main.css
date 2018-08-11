@@ -1,0 +1,55 @@
+.main__background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px; }
+
+.main__slogan {
+  position: absolute;
+  height: auto;
+  width: 254px;
+  height: 338px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #231f20;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 90px; }
+
+.main__interior {
+  position: absolute;
+  top: 300px;
+  background-color: #63d1bb;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-family: "Tahoma";
+  font-weight: bold;
+  width: 320px;
+  text-align: left;
+  padding: 25px;
+  border: none; }
+
+.interior__img {
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px; }
+
+.main__toy {
+  position: absolute;
+  top: 402px;
+  background-color: #55c3b2;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-family: "Tahoma";
+  font-weight: bold;
+  min-width: 320px;
+  text-align: left;
+  padding: 25px;
+  border: none; }
+
+.toy__img {
+  float: right;
+  margin-top: -30px; }
