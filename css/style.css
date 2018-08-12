@@ -136,16 +136,19 @@
   line-height: 16px;
   color: #34a998;
   font-family: "Open Sans";
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .items__about,
 .items__baskets {
   font-size: 14px;
   line-height: 24px;
   color: #444444;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  margin-right: 30px; }
 
 .items__baskets {
+  width: 260px;
   padding-bottom: 30px; }
 
 .items__baskets td {
@@ -155,7 +158,9 @@
   padding-left: 30px; }
 
 .items__picture {
-  text-align: center; }
+  position: relative;
+  display: flex;
+  justify-content: center; }
 
 .items__price {
   font-size: 16px;
@@ -171,7 +176,15 @@
   color: #444444;
   font-family: "Open Sans";
   font-weight: bold;
-  width: 260px; }
+  width: 260px;
+  text-transform: uppercase; }
+
+.btn {
+  height: 50px;
+  border: solid 2px #434343;
+  display: block;
+  position: relative;
+  margin: 0 auto; }
 
 body {
   margin: 0; }
