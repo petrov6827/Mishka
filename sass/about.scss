@@ -1,7 +1,23 @@
+.about {
+    margin-left: 30px;
+}
+
+.about__table {
+    max-width: 260px;
+}
+
 .about__title {
     font-size: 24px;
     line-height: 30px;
     font-family: "Verdana";
     font-weight: bold;    
     padding-top: 40px;
+}
+
+.item__text {
+    font-size: 16px;
+    color: rgb(0,0,0);
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: left;
 }
