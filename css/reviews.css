@@ -1,6 +1,53 @@
+.reviews {
+  margin-left: 30px; }
+
 .reviews__title {
   font-size: 24px;
   line-height: 30px;
   font-family: "Verdana";
   font-weight: bold;
   padding-top: 40px; }
+
+.slider__item {
+  font-size: 14px;
+  line-height: 30px;
+  color: #444444;
+  font-family: "Open Sans"; }
+
+.reviews__author-name {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-transform: none;
+  font-style: normal; }
+
+.reviews__author--instagram {
+  color: black; }
+
+.reviews__preview,
+.reviews__next {
+  float: left;
+  width: 50%;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  height: 64px; }
+
+.reviews__write {
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+  font-family: "Open Sans";
+  font-weight: bold;
+  width: 260px;
+  text-transform: uppercase; }
+
+.btn {
+  height: 50px;
+  border: solid 2px #434343;
+  display: block;
+  position: relative;
+  margin: 0 auto; }
