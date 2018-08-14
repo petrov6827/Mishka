@@ -206,5 +206,12 @@
   font-weight: bold;
   text-align: left; }
 
+.reviews__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Verdana";
+  font-weight: bold;
+  padding-top: 40px; }
+
 body {
   margin: 0; }
