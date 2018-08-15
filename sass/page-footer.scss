@@ -1,0 +1,53 @@
+.page-footer {
+    margin-left: 30px;
+
+    background-color: #f1f1f1;
+}
+
+
+
+.social-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 80px;
+    border-bottom: 1px solid #ececec;
+    vertical-align: center;
+}
+
+.social-link {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.social-link--tw {
+    margin-right: 0px;
+}
+
+.social-link--fb {
+    margin-top: 26px;
+}
+
+.mishka-logo-tablet {
+    display: none;
+}
+
+.page-footer__copyright-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Verdana";
+    font-weight: bold;    
+    text-decoration: none;
+    vertical-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-footer__copyright-link img {
+    margin-top: -8px;
+    margin-left: 22px;
+}

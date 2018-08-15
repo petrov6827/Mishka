@@ -41,7 +41,8 @@
 .items__picture {
   position: relative;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: -60px; }
 
 .items__price {
   font-size: 16px;
