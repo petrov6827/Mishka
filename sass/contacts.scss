@@ -1,9 +1,8 @@
-.reviews {
+.contacts {
     margin-left: 30px;
-
 }
 
-.reviews__title {
+.contacts__title {
     font-size: 24px;
     line-height: 30px;
     font-family: "Verdana";
@@ -11,40 +10,33 @@
     padding-top: 40px;
 }
 
-.slider__item {
+.contacts__table {
     font-size: 14px;
     line-height: 30px;
     color: rgb(68,68,68);
     font-family: "Open Sans";
 }
 
-.reviews__author-name {
-    font-size: 14px;
-    line-height: 24px;
-    font-family: "Verdana";
-    font-weight: bold;
-    text-transform: none;
-    font-style: normal;
+.contacts__table td {
+    vertical-align: baseline;
 }
 
-.reviews__author--instagram {
-    color: black;
+.contacts__table td:nth-child(2) {
+    padding-left: 30px;
+    padding-bottom: 40px;
 }
 
-.reviews__preview,
-.reviews__next {
-    float: left;
-    width: 50%;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
-    border-left: none;
-    border-right: none;
-    background-color: white;
-    height: 64px; 
-    margin-bottom: 38px;
+.contacts__table tr{
+    margin-bottom: 65px;
 }
 
-.reviews__write {
+.e-mail {
+    border-bottom: 1px solid #6bc5b3;
+    color: rgb(68,68,68);
+    text-decoration: none;
+}
+
+.contacts__write {
     font-size: 16px;
     line-height: 16px;
     color: rgb(68,68,68);
@@ -62,4 +54,11 @@
     position: relative;
     margin:0 auto;
     margin-bottom: 38px;
+}
+
+.contacts__map {
+    margin-bottom: 40px;
+}
+
+.map__tag {
 }
