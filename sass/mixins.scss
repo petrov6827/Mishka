@@ -16,3 +16,11 @@
   display: $display;
   position: $pos;
 }
+
+@mixin tablet-width {
+  min-width: 768px;
+}
+
+@mixin desktop-width {
+  min-width: 1150px;
+}
