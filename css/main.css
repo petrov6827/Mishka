@@ -8,7 +8,6 @@
   position: absolute;
   height: auto;
   width: 254px;
-  height: 338px;
   font-size: 24px;
   line-height: 30px;
   color: #231f20;
@@ -53,3 +52,25 @@
 .toy__img {
   float: right;
   margin-top: -30px; }
+
+@media (max-width: 767px) {
+  .main-nav {
+    margin: 0 auto; }
+  .hero-desktop {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .hero-mobile {
+    display: none; }
+  .main__slogan {
+    position: absolute;
+    height: auto;
+    width: 700px;
+    height: 264px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231f20;
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px; } }

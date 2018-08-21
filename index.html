@@ -8,29 +8,32 @@
 
     <body>
         <header class="page-header">
-            
-            <!--скрытое меню START-->
+
+            <img class="page-header__logo-tablet" src="img/logo-tablet.png" alt="логотип таблет">
+
+            <div class="page-header__logo">
+                    <img src="img/logo-mobile.png">
+                    <a href="#" class="page-header__toggle">&#9776</a>
+            </div>
+
             <nav class="main-nav  main-nav--closed">
-                <div class=".page-header__logo  logo-mobile--active">
-                    <img src="img/mishka-logo-mobile.png" width="88px" height="36px">
+                <div class="page-header__logo  logo-mobile--active">
+                    <img src="img/logo-mobile.png" width="88px" height="36px">
                     <a href="#" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png" height="20px" width="21px" ></a>
                 </div>
                 
-                <div class="main-nav__wrapper">
-                    <ul class="main-nav__items">
+                    <ul class="main-nav__items  left-column">
                         <li class="main-nav__item"><a href="">Каталог товаров</a></li>
                         <li class="main-nav__item"><a href="">Вязание на заказ</a></li>
-                        <li class="main-nav__item"><a href=""><img class="main-nav__item--find" src="img/search.png">Поиск по сайту</a></li>
+                    </ul>
+                    <ul class="main-nav__items  right-column">
+                        <li class="main-nav__item  f"><a href=""><img class="main-nav__item--find" src="img/search.png">Поиск по сайту</a></li>
                         <li class="main-nav__item"><a href="#"><img class="main-nav__item--cart" src="img/cart.png">Корзина: пока пуста</a></li> 
                     </ul>
-                </div>
             </nav>
-            <!--скрытое меню END-->
 
-            <div class="page-header__logo">
-                    <img src="img/mishka-logo-mobile.png">
-                    <a href="#" class="page-header__toggle">&#9776</a>
-            </div>
+
+            
         </header>
 
         <main>
@@ -40,7 +43,9 @@
                 <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
                 <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
                 
-                <img src="img/hero-mobile.png" alt="Задний фон" width="575px" height="373px">
+                <img class="hero-mobile" src="img/hero-mobile.png" alt="Задний фон" width="575" height="373">
+                <img class="hero-desktop" src="img/hero-desktop.png" width="1150" height="746">
+
             </div>
         </main>
 

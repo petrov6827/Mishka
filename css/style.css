@@ -1,19 +1,12 @@
-@tablet-width : ~"(min-width: 768px)";
-@desktop-width : ~"(min-width: 1150px)";
-@media (max-width: 320px) {
-  .main-nav {
-    margin: 0 auto; } }
-
 .main-nav--closed {
   display: block; }
 
 .main-nav {
   width: 320px;
-  margion: 0 auto; }
-
-.main-nav a {
-  color: #000000;
-  text-decoration: none; }
+  margin: 0 auto; }
+  .main-nav a {
+    color: #000000;
+    text-decoration: none; }
 
 .main-nav__item {
   list-style: none;
@@ -26,14 +19,12 @@
   padding: 28px;
   padding-left: 0;
   border-bottom: 1px solid #ebebeb; }
-
-.main-nav__item img {
-  position: absolute;
-  margin-left: -46px;
-  margin-top: 3px; }
-
-.main-nav__item a {
-  padding-left: 76px; }
+  .main-nav__item img {
+    position: absolute;
+    margin-left: -46px;
+    margin-top: 3px; }
+  .main-nav__item a {
+    padding-left: 76px; }
 
 .main-nav__close {
   float: right;
@@ -43,7 +34,8 @@
   color: #000000; }
 
 .main-nav__items {
-  padding-left: 0; }
+  padding-left: 0;
+  margin: 0; }
 
 .page-header__logo {
   width: 240px;
@@ -60,6 +52,39 @@
   text-decoration: none;
   color: #000000; }
 
+@media (max-width: 767px) {
+  .main-nav {
+    margin: 0 auto; }
+  .page-header__logo-tablet {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .page-header__logo-tablet {
+    margin-left: 50px;
+    margin-top: 20px; }
+  .main-nav {
+    width: auto;
+    min-height: 70px;
+    margin: 0; }
+  .main-nav__item {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0; }
+  .right-column {
+    position: absolute;
+    top: 0;
+    right: 0; }
+    .right-column .main-nav__item {
+      border: 1px solid #ebebeb; }
+  .f {
+    text-size: 0; }
+  .page-header__logo {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  .main-nav {
+    width: 1200px; } }
+
 .main__background {
   position: relative;
   display: flex;
@@ -70,7 +95,6 @@
   position: absolute;
   height: auto;
   width: 254px;
-  height: 338px;
   font-size: 24px;
   line-height: 30px;
   color: #231f20;
@@ -115,6 +139,28 @@
 .toy__img {
   float: right;
   margin-top: -30px; }
+
+@media (max-width: 767px) {
+  .main-nav {
+    margin: 0 auto; }
+  .hero-desktop {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .hero-mobile {
+    display: none; }
+  .main__slogan {
+    position: absolute;
+    height: auto;
+    width: 700px;
+    height: 264px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231f20;
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px; } }
 
 .items {
   content: "";
