@@ -160,7 +160,19 @@
     font-family: "Verdana";
     font-weight: bold;
     text-align: center;
-    padding-top: 60px; } }
+    padding-top: 60px; }
+  .main__interior {
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    top: 625px;
+    max-height: 125px; }
+  .main__toy {
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    top: 625px;
+    max-height: 125px; } }
 
 .items {
   content: "";
