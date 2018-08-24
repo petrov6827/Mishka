@@ -134,10 +134,17 @@
 
     }
 
-
-
     .page-header__logo {
         display: none;
+    }
+
+    .zigzag-fill {
+        position: absolute;
+        bottom: 0;
+        background-image: url('img/zigzag-fill.png');
+        background-repeat: repeat-x;
+
+
     }
 }
 
