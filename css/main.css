@@ -88,4 +88,7 @@
     bottom: 0;
     right: 0;
     top: 625px;
-    max-height: 125px; } }
+    max-height: 125px; }
+  .zigzag-fill {
+    position: absolute;
+    bottom: 0; } }

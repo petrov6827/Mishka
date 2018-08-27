@@ -96,9 +96,7 @@
     display: none; }
   .zigzag-fill {
     position: absolute;
-    bottom: 0;
-    background-image: url("img/zigzag-fill.png");
-    background-repeat: repeat-x; } }
+    bottom: 0; } }
 
 @media (min-width: 1200px) {
   .main-nav {
