@@ -297,18 +297,37 @@
     line-height: 30px;
     color: #444444;
     font-family: "Open Sans";
-    width: 50%; }
+    width: 45%; }
   .items__baskets {
     font-size: 15px;
     line-height: 20px;
     color: #444444;
     font-family: "Open Sans";
-    widtH: 50%; }
+    width: 50%;
+    margin-bottom: 50px; }
+  .items__baskets td {
+    padding-bottom: 10px;
+    padding-top: 10px; }
   .basket-tablet {
-    float: right;
-    margin: 0 auto; }
+    position: absolute;
+    right: 0;
+    top: 575px;
+    width: auto; }
   .basket-mobile {
-    display: none; } }
+    display: none; }
+  .items__price {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    min-width: 45%;
+    font-size: 18px;
+    line-height: 24px;
+    color: #444444;
+    font-family: "Verdana";
+    font-weight: bold; }
+  button.items__buy.btn {
+    margin: 0;
+    min-width: 45%; } }
 
 .about {
   margin-left: 30px;
