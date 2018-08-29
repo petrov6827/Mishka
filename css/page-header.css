@@ -93,10 +93,7 @@
     height: 18px;
     max-width: 18px; }
   .page-header__logo {
-    display: none; }
-  .zigzag-fill {
-    position: absolute;
-    bottom: 0; } }
+    display: none; } }
 
 @media (min-width: 1200px) {
   .main-nav {
