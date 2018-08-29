@@ -4,7 +4,8 @@
   display: block;
   min-width: 320px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  margin-bottom: 30px; }
 
 .items__title {
   font-size: 24px;
@@ -61,18 +62,23 @@
   font-family: "Open Sans";
   font-weight: bold;
   width: 260px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: 0; }
 
 .btn {
   height: 50px;
   border: solid 2px #434343;
   display: block;
-  position: relative;
-  margin: 0 auto; }
+  position: relative; }
 
 @media (max-width: 767px) {
   .basket-tablet {
-    display: none; } }
+    display: none; }
+  .zigzag-line {
+    margin-bottom: 50px; }
+  .basket-mobile {
+    text-align: center;
+    margin: 0 auto; } }
 
 @media (min-width: 768px) {
   .items__title {

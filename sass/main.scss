@@ -70,8 +70,13 @@
     .main-nav {
         margin: 0 auto;
     }
+
     .hero-desktop {
         display: none;
+    }
+
+    .hero-mobile {
+
     }
 }
 
@@ -79,6 +84,7 @@
 @media (min-width: 768px) {
     .hero-mobile {
         display: none;
+        margin-left: 30px;
     }
 
     .main__slogan {

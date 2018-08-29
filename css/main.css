@@ -64,7 +64,8 @@
 
 @media (min-width: 768px) {
   .hero-mobile {
-    display: none; }
+    display: none;
+    margin-left: 30px; }
   .main__slogan {
     position: absolute;
     height: auto;

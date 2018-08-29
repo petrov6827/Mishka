@@ -5,6 +5,7 @@
     min-width: 320px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -72,6 +73,7 @@
     font-weight: bold;
     width: 260px;
     text-transform: uppercase;
+    margin-left: 0;
 }
 
 .btn {
@@ -79,13 +81,20 @@
     border: solid 2px #434343;
     display: block;
     position: relative;
-    margin: 0 auto;
+    
 }
 
 @media (max-width: 767px) {
     .basket-tablet {
         display: none;
     }
+    .zigzag-line {
+        margin-bottom: 50px;
+    }
+    .basket-mobile {
+        text-align: center;
+        margin: 0 auto;
+    } 
 }
 
 //tablet
@@ -100,7 +109,6 @@
         padding-top: 0;
         margin: 0;
         margin-bottom: 50px;
-        
     }
 
     .items__top-sales {
