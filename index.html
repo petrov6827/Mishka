@@ -98,6 +98,7 @@
         </div>
 
         <section class="reviews">
+            <img class="reviews__background" src="img/review.png" width="350" height="457">
             <div class="reviews__wrapper">
                 <h1 class="reviews__title">Отзывы</h1>
                 <button class="reviews__write-tablet  btn" type="button" href="#">Написать</button>
@@ -109,7 +110,7 @@
                 <div class="slider">
                     <div class="slides slide1">
                         <blockquote class="reviews__slide1">
-                            <p>Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков.</p>
+                            <p>Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков.Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков.Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков.</p>
                             <cite class="author-name">Анастасия Красильникова<br></cite>
                             <a class="author-instagram"href="instagram.com/@misskras">@misskras</a>
                         </blockquote>
@@ -130,12 +131,14 @@
                 <button class="reviews__write-mobile  btn" type="button" href="#">Написать</button>    
                 
                 <img class="zigzag" src="img/zigzag.png" alt="zig-zag">
-                <img class="zigzag-line" src="img/zigzag-line.png">
+                
             </div>
+            <img class="zigzag-line" src="img/zigzag-line.png">
         </section> 
 
         <div class="contacts">
             <h1 class="contacts__title">Контакты</h1>
+            <img class="contacts__flag" src="img/flag.png">
             
             <table class="contacts__table">
                 <tr>                        
@@ -143,8 +146,8 @@
                     <td><a class="e-mail" href="info@mishkashop.ru">info@mishkashop.ru</a></td>
                 </tr>
                 <tr>
-                    <td><br>адрес:</td>
-                    <td><br>г.Санкт-Петербург,<br>
+                    <td>адрес:</td>
+                    <td>г.Санкт-Петербург,<br>
                         ул. Большая Конюшенная,<br>
                         д. 19/8, офис 101
                     </td>
@@ -153,14 +156,16 @@
             <div class="contacts__map">
                 <div class="map__tag"><img src="img/map-pin.png" alt="указатель М"></div>
                 <!--возможно тут будет авто тег-->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533216!2d30.32085871635206!3d59.93871648187625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1534296050530" width="320" height=456" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe class="map__mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533216!2d30.32085871635206!3d59.93871648187625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1534296050530" width="320" height=456" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe class="map__tablet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003192!2d30.32085871623127!3d59.93871916905404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x62740c0ffcd8a91f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsIDEwMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTE4Ng!5e0!3m2!1sru!2sru!4v1535660444247" width="768" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
+
             </div>
             <button class="contacts__write btn" type="button" href="#">Напишите нам</button>
         </div>
 
         <footer class="page-footer">
             <div class="page-footer__wrapper">
-                <div class="mishka-logo-tablet"><img src="img/logo-tablet.png"></div> <!--скрыта для моб версии-->            
+                <div class="page-footer__logo"><img src="img/logo-footer.png"></div> <!--скрыта для моб версии-->            
                 <p class="page-footer__social">
                     <span class="social-links">
                         <a class="social-link  social-link--in" href="https://instagram.com/htmlcademy"><img src="img/insta.png"></a>
@@ -170,7 +175,6 @@
                 </p>
                  <a class="page-footer__copyright-link" href="htmlacademy.ru">Разработано<img src="img/htmlacademy.png" width="27" height="34"></a>
              </div>
-
         </footer>
     </body>
 </html>

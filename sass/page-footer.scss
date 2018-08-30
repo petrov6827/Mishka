@@ -1,6 +1,5 @@
 .page-footer {
     margin-left: 30px;
-
     background-color: #f1f1f1;
 }
 
@@ -50,4 +49,48 @@
 .page-footer__copyright-link img {
     margin-top: -8px;
     margin-left: 22px;
+}
+
+
+
+//mobile
+@media (max-width: 767px) {
+    .reviews {
+        margin: 0 auto;
+        margin-left: 30px;
+    }
+
+    .page-footer__logo {
+        display: none;
+    }
+}
+
+//tablet
+@media (min-width: 768px) {
+
+    .page-footer {
+        min-height: 143px;
+    }
+
+    .page-footer__wrapper {
+        position: relative;    
+    }
+
+    .page-footer__copyright-link {
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+
+    .page-footer__logo {
+        position: absolute;
+        left: 30px;
+        top: 55px;
+    }
+
+    .social-links {
+        border-bottom: none;
+        padding-top: 30px;
+        
+    }
 }
