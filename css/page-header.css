@@ -53,48 +53,95 @@
 @media (max-width: 767px) {
   .main-nav {
     margin: 0 auto; }
-  .page-header__logo-tablet {
+  .page-header__logo-tablet,
+  .left-column .main-nav__item:nth-child(3),
+  .page-header__logo-desktop,
+  .main-nav__items-desktop {
     display: none; }
   .main-nav__item a {
     padding-left: 76px; } }
 
 @media (min-width: 768px) {
   .page-header__logo-tablet {
-    margin-left: 50px;
-    margin-top: 20px; }
+    margin-left: 50px; }
   .main-nav {
     width: auto;
     min-height: 70px;
     margin: 0; }
   .main-nav__item {
     display: inline-block;
-    margin: 0;
     border-collapse: collapse; }
-    .main-nav__item img {
-      margin-right: 30px; }
   .main-nav__item a {
     padding-left: 30px; }
   .main-nav__item-find {
     left: 80px;
-    top: 29px; }
+    top: 30px; }
   .right-column {
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 0;
+    min-width: 50%; }
     .right-column .main-nav__item {
       border-bottom: 1px solid #ebebeb;
       border-left: 1px solid #ebebeb;
+      line-height: 12px;
       padding-left: 30px; }
+      .right-column .main-nav__item a {
+        padding-left: 56px; }
   .left-column .main-nav__item {
     border-bottom: none;
     padding-top: 30px; }
+  .left-column .main-nav__item:nth-child(3) {
+    font-size: 14px;
+    text-align: right;
+    line-height: 24px;
+    color: #444444;
+    font-family: "Verdana";
+    font-weight: lighter;
+    display: block;
+    float: right; }
+  .main-nav__item-cart {
+    top: 28px;
+    margin-left: -30px; }
   .f {
     font-size: 0;
     height: 18px;
-    max-width: 18px; }
-  .page-header__logo {
-    display: none; } }
+    max-width: 18px;
+    padding-left: 60px; }
+  .page-header__logo,
+  .page-header__logo-desktop,
+  .main-nav__items-desktop {
+    display: none;
+    margin-right: 10px; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .main-nav {
-    width: 1200px; } }
+    width: 1150px;
+    padding-bottom: 12px; }
+  .left-column {
+    float: left; }
+    .left-column .main-nav__item:nth-child(3) {
+      display: none; }
+  .page-header__logo-desktop {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 45%;
+    margin-bottom: 3px; }
+  .right-column {
+    float: right;
+    min-width: 350px; }
+  .f {
+    border-bottom: none; }
+  .page-header__logo,
+  .page-header__logo-tablet {
+    display: none; }
+  .main-nav,
+  .main-nav__item {
+    border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb; }
+  .main-nav__items-desktop {
+    display: block;
+    border: none;
+    margin-left: 0; } }

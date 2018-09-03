@@ -10,27 +10,39 @@
         <header class="page-header">
 
             <img class="page-header__logo-tablet" src="img/logo-tablet.png" alt="логотип таблет">
-
-            <div class="page-header__logo">
-                    <img src="img/logo-mobile.png">
-                    <a href="#" class="page-header__toggle">&#9776</a>
+            <div class="page-header__logo-desktop">
+                <img src="img/logo-desktop.png">
             </div>
-
+            <div class="page-header__logo">
+                <img src="img/logo-mobile.png">
+                <a href="#" class="page-header__toggle">&#9776</a>
+            </div>
             <nav class="main-nav  main-nav--closed">
                 <div class="page-header__logo  logo-mobile--active">
                     <img src="img/logo-mobile.png" width="88px" height="36px">
                     <a href="#" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png" height="20px" width="21px" ></a>
-                </div>
-                
+                </div>                
                     <ul class="main-nav__items  left-column">
                         <li class="main-nav__item"><a href="">Каталог товаров</a></li>
                         <li class="main-nav__item"><a href="">Вязание на заказ</a></li>
+                        <li class="main-nav__item"><a href="">Бесплатная доставка по России</a></li>
                     </ul>
-                    <ul class="main-nav__items  right-column">
+                    
+                    <ul class="main-nav__items  right-column  clearfix">
                         <li class="main-nav__item  f"><a href=""><img class="main-nav__item-find" src="img/search.png">Поиск по сайту</a></li>
                         <li class="main-nav__item"><a href="#"><img class="main-nav__item-cart" src="img/cart.png">Корзина: пока пуста</a></li> 
                     </ul>
+                    
             </nav>
+            <div class="main-nav__items  main-nav__items-desktop">
+                        <ul>
+                            <li class="main-nav__item"><a href="">Новые поступления</a></li>
+                            <li class="main-nav__item"><a href="">Распродажа</a></li>
+                        </ul>
+                        <ul>
+                            <li class="main-nav__item"><a href="">Бесплатная доставка по России</a></li>
+                        </ul>
+                    </div>
 
 
             
@@ -115,8 +127,8 @@
                             <a class="author-instagram"href="instagram.com/@misskras">@misskras</a>
                         </blockquote>
                     </div>
-                    <div class="slides slide2">второй</div>
-                    <div class="slides slide3">третий</div>
+                    <div class="slides slide2">второй отзыв</div>
+                    <div class="slides slide3">третий отзыв</div>
                 </div>
 
                 <div class="controls">
@@ -176,5 +188,7 @@
                  <a class="page-footer__copyright-link" href="htmlacademy.ru">Разработано<img src="img/htmlacademy.png" width="27" height="34"></a>
              </div>
         </footer>
+
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
