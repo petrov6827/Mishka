@@ -139,3 +139,15 @@
     margin-bottom: 50px; }
   .zigzag-line {
     margin-bottom: 50px; } }
+
+@media (min-width: 1150px) {
+  .items__title {
+    line-height: 57px; }
+  .items {
+    padding-left: 225px;
+    position: relative; }
+  .items__top-sales {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 0; } }
