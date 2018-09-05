@@ -36,6 +36,7 @@
         margin-left: 30px;
         margin-bottom: 70px;
     }
+
     .about__title {
         display: inline-block;
         font-size: 40px;
@@ -59,10 +60,29 @@
         font-weight: bold;
         min-height: 115px;
     }
+}
 
-    .about::after{
-        content: "";
-        display: table;
-        clear: both;
+//desktop
+@media (min-width: 1150px) {
+
+    .about__title {
+        font-size: 50px;
+        line-height: 57px;
+    }
+
+    .about {
+        padding-left: 225px;
+        padding-right: 225px;
+    }
+
+    .table-item:nth-child(n+2) {
+        width: 260px;
+    }
+
+    .item__text {
+        font-size: 20px;
+        color: rgb(0,0,0);
+        font-family: "Verdana";
+        font-weight: bold;
     }
 }

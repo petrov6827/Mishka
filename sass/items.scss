@@ -85,12 +85,15 @@
 }
 
 @media (max-width: 767px) {
-    .basket-tablet {
+    .basket-tablet,
+    .basket-desktop {
         display: none;
     }
+
     .zigzag-line {
         margin-bottom: 50px;
     }
+
     .basket-mobile {
         text-align: center;
         margin: 0 auto;
@@ -151,9 +154,9 @@
         width: auto;
     }
 
-    .basket-mobile {
+    .basket-mobile,
+    .basket-desktop {
         display: none;
-
     }
 
     .items__price {
@@ -181,6 +184,12 @@
 
 //desktop
 @media (min-width: 1150px) {
+
+    .basket-tablet,
+    .basket-mobile {
+        display: none;
+    }
+
     .items__title {
         line-height: 57px;
     }
@@ -195,5 +204,12 @@
         position: absolute;
         left: 30px;
         top: 0;
+    }
+
+    .basket-desktop {
+        position: absolute;
+        left: 50%;
+        z-index: 1;
+        min-width: 525px;
     }
 }
