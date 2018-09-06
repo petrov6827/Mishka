@@ -143,11 +143,11 @@
     margin-bottom: 50px; } }
 
 @media (min-width: 1150px) {
-  .basket-tablet,
-  .basket-mobile {
+  .basket-tablet {
     display: none; }
   .items__title {
-    line-height: 57px; }
+    line-height: 57px;
+    font-size: 50px; }
   .items {
     padding-left: 225px;
     position: relative; }
@@ -158,6 +158,7 @@
     top: 0; }
   .basket-desktop {
     position: absolute;
-    left: 50%;
-    z-index: 1;
-    min-width: 525px; } }
+    right: 30px;
+    top: 900px;
+    width: auto;
+    z-index: -1; } }

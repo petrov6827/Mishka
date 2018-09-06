@@ -19,8 +19,7 @@
   font-weight: bold;
   padding: 28px;
   padding-left: 0;
-  border-bottom: 1px solid #ebebeb;
-  padding-left: 30px; }
+  border-bottom: 1px solid #ebebeb; }
   .main-nav__item img {
     position: absolute;
     margin-left: -46px;
@@ -74,7 +73,8 @@
     margin: 0; }
   .main-nav__item {
     display: inline-block;
-    border-collapse: collapse; }
+    border-collapse: collapse;
+    padding-left: 30px; }
   .main-nav__item a {
     position: relative; }
   .main-nav__item-find {

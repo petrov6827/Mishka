@@ -84,6 +84,7 @@
     
 }
 
+//mobile
 @media (max-width: 767px) {
     .basket-tablet,
     .basket-desktop {
@@ -185,13 +186,13 @@
 //desktop
 @media (min-width: 1150px) {
 
-    .basket-tablet,
-    .basket-mobile {
+    .basket-tablet{
         display: none;
     }
 
     .items__title {
         line-height: 57px;
+        font-size: 50px;
     }
 
     .items {
@@ -208,8 +209,9 @@
 
     .basket-desktop {
         position: absolute;
-        left: 50%;
-        z-index: 1;
-        min-width: 525px;
+        right: 30px;
+        top: 900px;
+        width: auto;
+        z-index: -1;
     }
 }

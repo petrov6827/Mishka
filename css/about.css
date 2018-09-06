@@ -55,8 +55,11 @@
   .about {
     padding-left: 225px;
     padding-right: 225px; }
-  .table-item:nth-child(n+2) {
+  .table-item:nth-child(2n-1) {
     width: 260px; }
+  .table-item {
+    border: 1px solid red;
+    padding-right: 130px; }
   .item__text {
     font-size: 20px;
     color: black;
