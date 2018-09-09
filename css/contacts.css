@@ -91,8 +91,7 @@
     float: left; }
   .contacts__table tr:nth-child(2) {
     float: right; }
-  .map__mobile,
-  .map__desktop {
+  .map__mobile {
     display: none; }
   .map__tablet {
     margin-bottom: 25px; }
@@ -116,28 +115,25 @@
   .contacts {
     padding-left: 225px;
     position: relative;
-    width: 30%;
     display: table; }
   .contacts__flag {
     position: absolute;
     left: 110px;
     top: 0; }
   .contacts__table {
-    min-width: 300px;
-    border: 1px solid red; }
+    min-width: 300px; }
   .contacts__table tr {
     display: table;
-    border: 1px solid red;
     width: 30%; }
   .contacts__table tr:nth-child(1) {
     display: inline-block;
     width: 100%; }
   .contacts__table tr:nth-child(2) {
     display: inline-block;
-    left: 0; }
+    width: 100%; }
   .contacts__map {
     position: absolute;
-    left: 50%;
+    left: 100%;
     top: 0; }
   .contacts__write {
     margin-left: 0; } }

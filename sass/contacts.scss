@@ -125,8 +125,7 @@
         float: right;        
     }
 
-    .map__mobile,
-    .map__desktop {
+    .map__mobile {
         display: none;
     }
 
@@ -166,7 +165,6 @@
     .contacts {
         padding-left: 225px;
         position: relative;
-        width: 30%;
         display: table;
     }
 
@@ -178,12 +176,10 @@
 
     .contacts__table {
         min-width: 300px;
-        border: 1px solid red;
     }
 
     .contacts__table tr {
         display: table;
-        border: 1px solid red;
         width: 30%;
     }
 
@@ -194,17 +190,19 @@
 
     .contacts__table tr:nth-child(2) {
         display: inline-block;
-        left: 0;
+        width: 100%;
     }
 
     .contacts__map {
         position: absolute;
-        left: 50%;
+        left: 100%;
         top: 0;
     }
 
     .contacts__write {
         margin-left: 0;
     }
+
+    
 
 }

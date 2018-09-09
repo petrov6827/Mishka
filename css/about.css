@@ -46,7 +46,8 @@
     color: black;
     font-family: "Verdana";
     font-weight: bold;
-    min-height: 115px; } }
+    min-height: 131px;
+    min-width: 310px; } }
 
 @media (min-width: 1150px) {
   .about__title {
@@ -59,7 +60,9 @@
     width: 260px; }
   .table-item {
     border: 1px solid red;
-    padding-right: 130px; }
+    padding-right: 130px;
+    min-height: 131px;
+    min-width: 322px; }
   .item__text {
     font-size: 20px;
     color: black;
