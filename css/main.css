@@ -102,3 +102,19 @@
     background-position: 25px 0, 25px 0, 0 0, 0 0;
     background-size: 50px 50px;
     background-repeat: repeat; } }
+
+@media (min-width: 1150px) {
+  .main__interior:hover {
+    background-color: #58d5bc;
+    top: 620px;
+    min-height: 130px;
+    padding-top: 20px; }
+  .main__interior:active {
+    opacity: 0.3; }
+  .main__toy:hover {
+    background-color: #45c1ae;
+    top: 620px;
+    min-height: 130px;
+    padding-top: 20px; }
+  .main__toy:active {
+    opacity: 0.3; } }

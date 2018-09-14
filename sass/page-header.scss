@@ -199,6 +199,22 @@
         margin-bottom: 3px;
     }
 
+    .page-header__logo-desktop:hover,
+    .left-column li:hover,
+    .right-column li a:hover,
+    .main-nav__items-desktop li:hover {
+        opacity: 0.6;
+    }
+
+    .page-header__logo-desktop:active,
+    .left-column li:active,
+    .right-column li a:active,
+    .main-nav__items-desktop li:active {
+        opacity: 0.3;
+    }
+
+        
+
     .right-column {
         float: right;
         min-width: 350px;
@@ -211,6 +227,10 @@
     .page-header__logo,
     .page-header__logo-tablet {
         display: none;
+    }
+
+    .main-nav {
+        width: auto;
     }
 
     .main-nav,
