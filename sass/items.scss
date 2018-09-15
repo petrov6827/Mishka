@@ -71,7 +71,7 @@
     background-color: #ffffff;
     font-family: "Open Sans";
     font-weight: bold;
-    width: 260px;
+    max-width: 260px;
     text-transform: uppercase;
     margin-left: 0;
 }
@@ -98,6 +98,7 @@
     .basket-mobile {
         text-align: center;
         margin: 0 auto;
+        margin-left: 0px;
     } 
 }
 
@@ -150,8 +151,8 @@
 
     .basket-tablet {
         position: absolute;
-        right: 15px;
-        top: 575px;
+        right: -100px;
+        top: 1150px;
         min-width: 50%;
     }
 
@@ -193,11 +194,22 @@
     .items__title {
         line-height: 57px;
         font-size: 50px;
+
     }
 
     .items {
-        padding-left: 225px;
         position: relative;
+        padding-left: 225px;
+
+    }
+
+    .items__baskets {
+        margin-bottom: 110px;
+        padding-bottom: 0;
+    }
+
+    .items__about {
+        margin-bottom: 65px;
     }
 
     .items__top-sales {
@@ -207,12 +219,19 @@
         top: 0;
     }
 
-    .basket-desktop {
-        position: absolute;
-        right: 30px;
-        top: 900px;
-        width: auto;
-        z-index: -1;
+    button.items__buy.btn,
+    .items__price,
+    .items__about {
+
+        min-width: 290px;
     }
 
+    .basket-desktop {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -33px;
+        min-width: 525px;
+        z-index: -1;
+    }
 }

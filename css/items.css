@@ -61,7 +61,7 @@
   background-color: #ffffff;
   font-family: "Open Sans";
   font-weight: bold;
-  width: 260px;
+  max-width: 260px;
   text-transform: uppercase;
   margin-left: 0; }
 
@@ -79,7 +79,8 @@
     margin-bottom: 50px; }
   .basket-mobile {
     text-align: center;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    margin-left: 0px; } }
 
 @media (min-width: 768px) {
   .items__title {
@@ -119,8 +120,8 @@
     padding-top: 10px; }
   .basket-tablet {
     position: absolute;
-    right: 15px;
-    top: 575px;
+    right: -100px;
+    top: 1150px;
     min-width: 50%; }
   .basket-mobile,
   .basket-desktop {
@@ -149,16 +150,26 @@
     line-height: 57px;
     font-size: 50px; }
   .items {
-    padding-left: 225px;
-    position: relative; }
+    position: relative;
+    padding-left: 225px; }
+  .items__baskets {
+    margin-bottom: 110px;
+    padding-bottom: 0; }
+  .items__about {
+    margin-bottom: 65px; }
   .items__top-sales {
     display: inline-block;
     position: absolute;
     left: 30px;
     top: 0; }
+  button.items__buy.btn,
+  .items__price,
+  .items__about {
+    min-width: 290px; }
   .basket-desktop {
+    display: block;
     position: absolute;
-    right: 30px;
-    top: 900px;
-    width: auto;
+    left: 50%;
+    top: -33px;
+    min-width: 525px;
     z-index: -1; } }

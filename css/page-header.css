@@ -1,12 +1,17 @@
-.main-nav--closed {
-  display: block; }
-
 .main-nav {
   width: 320px;
   margin: 0 auto; }
   .main-nav a {
     color: #000000;
     text-decoration: none; }
+
+.main-nav--closed {
+  display: none; }
+  .main-nav--closed--active {
+    display: block; }
+
+.main-nav--opened {
+  display: block; }
 
 .main-nav__item {
   position: relative;
