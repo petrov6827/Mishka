@@ -10,19 +10,6 @@
     }
 }
 
-.main-nav--closed {
-    display: none;
-
-    &--active {
-        display: block;
-    }
-}
-
-.main-nav--opened {
-    display: block;
-}
-
-
 .main-nav__item {
     position: relative;
     list-style: none;
@@ -94,6 +81,17 @@
         padding-left: 76px;
     }
 
+    .main-nav--closed {
+        display: none;
+
+        &--active {
+            display: block;
+        }
+    }
+
+    .main-nav--opened {
+        display: block;
+    }
 }
 
 //tablet
