@@ -84,16 +84,16 @@
     display: block; } }
 
 @media (min-width: 768px) {
-  .page-header__logo-tablet {
-    margin-left: 50px; }
   .main-nav {
     width: auto;
     min-height: 70px;
     margin: 0; }
+    .main-nav picture {
+      margin-left: 50px; }
   .main-nav__item {
     display: inline-block;
     border-collapse: collapse;
-    padding-left: 30px; }
+    padding-left: 50px; }
   .main-nav__item a {
     position: relative; }
   .main-nav__item-find {
@@ -144,19 +144,18 @@
   .main-nav {
     width: 1150px;
     padding-bottom: 12px; }
+  .main-nav picture {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 45%;
+    margin-bottom: 3px; }
   .left-column {
     float: left; }
     .left-column .main-nav__item:nth-child(3) {
       display: none; }
     .left-column li:nth-child(2) {
       border-left: 1px solid #ebebeb; }
-  .page-header__logo-desktop {
-    display: block;
-    position: absolute;
-    text-align: center;
-    top: 10px;
-    left: 45%;
-    margin-bottom: 3px; }
   .page-header__logo-desktop:hover,
   .left-column li:hover,
   .right-column li a:hover,
@@ -769,7 +768,8 @@
     padding-right: 225px; }
   .reviews__write-tablet {
     position: absolute;
-    right: 50px; }
+    right: 50px;
+    width: 20%; }
   .reviews__next,
   .reviews__preview {
     bottom: 0; }

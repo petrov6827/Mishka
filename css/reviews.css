@@ -181,7 +181,8 @@
     padding-right: 225px; }
   .reviews__write-tablet {
     position: absolute;
-    right: 50px; }
+    right: 50px;
+    width: 20%; }
   .reviews__next,
   .reviews__preview {
     bottom: 0; }

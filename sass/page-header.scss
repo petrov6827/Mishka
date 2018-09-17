@@ -96,22 +96,19 @@
 
 //tablet
 @media (min-width: 768px) {
-
-    .page-header__logo-tablet {
-        margin-left: 50px;
-        //margin-top: 20px;
-    }
-
     .main-nav { 
         width: auto;
         min-height: 70px;
         margin: 0;
+        picture {
+            margin-left: 50px;
+        }
     }
 
     .main-nav__item {
         display: inline-block;        
         border-collapse: collapse;
-        padding-left: 30px;
+        padding-left: 50px;
     }
 
     .main-nav__item a {
@@ -185,7 +182,15 @@
 @media (min-width: 1150px) {
     .main-nav {
         width: 1150px;
-        padding-bottom: 12px;
+        padding-bottom: 12px;        
+    }
+
+    .main-nav picture {
+        position: absolute;
+        text-align: center;
+        top: 10px;
+        left: 45%;
+        margin-bottom: 3px;
     }
 
     .left-column {
@@ -196,15 +201,6 @@
         li:nth-child(2) {
             border-left: 1px solid #ebebeb;
         }
-    }
-
-    .page-header__logo-desktop {
-        display: block;
-        position: absolute;
-        text-align: center;
-        top: 10px;
-        left: 45%;
-        margin-bottom: 3px;
     }
 
     .page-header__logo-desktop:hover,
@@ -220,8 +216,6 @@
     .main-nav__items-desktop li:active {
         opacity: 0.3;
     }
-
-        
 
     .right-column {
         float: right;
