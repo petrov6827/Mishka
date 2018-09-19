@@ -13,4 +13,4 @@ foo.txt
 .png
 .jpeg
 /node_modules/
-/server/node_modules/
+#/server/node_modules/
