@@ -186,9 +186,8 @@
   .reviews__next,
   .reviews__preview {
     bottom: 0; }
-  .reviews__preview img:hover,
-  .reviews__next img:hover {
-    opacity: 0.7; }
-  .reviews__preview:active,
-  .reviews__next:active {
+  .arrow:hover {
+    opacity: 0.7;
+    color: 0, 0, 0, 0.7; }
+  .arrow:active {
     opacity: 0.3; } }

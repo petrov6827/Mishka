@@ -14,3 +14,10 @@ foo.txt
 .jpeg
 /node_modules/
 #/server/node_modules/
+/build/
+.log
+.psd
+.ai
+.pdf
+Thumbs.db
+.DS_Store

@@ -13,7 +13,9 @@ var autoprefixer= require('autoprefixer');
 var mqpacker    = require('css-mqpacker');
 var minify      = require('gulp-csso');
 var rename      = require('gulp-rename');
-
+var imagemin    = require('gulp-imagemin');
+var run         = require('run-sequence');
+var del         = require('del');
 
 
 gulp.task('sass', function() {
@@ -32,11 +34,11 @@ gulp.task('sass', function() {
                 sort: true
             })             
             ]))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('build/css'))
          
         .pipe(minify())                      //минификация
         .pipe(rename('style.min.css'))      
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('build/css'));
 })
 
 gulp.task('sass', function() {           //преобразование scss ---> css
@@ -45,6 +47,42 @@ gulp.task('sass', function() {           //преобразование scss ---
         .pipe(gulp.dest('css'))
         .pipe(browserSync.stream())
     });
+
+
+gulp.task('build', function(fn) {
+    run('style', 'images', 'symbols', fn);
+})
+
+gulp.task('images', function() {                         //минификация картинок из папки билд
+    return gulp.src('build/img/**/*.{png,jpg,gif}')
+        .pipe(imagemin([
+            imagemin.optipng({optimizationLevel: 3}),
+            imagemin.jpegtran({progressive: true})
+        ]))
+        .pipe(gulp.dest('build/img'));
+});
+
+gulp.task('symbols', function() {                           //минификация спрайтов
+    return gulp.src('build/img/icons/&.svg')
+        .pipe(svgmin())
+        .pipe(svgstore({
+            inlineSvg: true
+        }))
+        .pipe(rename('symbols.svg'))
+        .pipe(gulp.dest('build/img'));
+})
+
+gulp.task('copy', function() {                             //копирование
+    return gulp.src([
+        'fonts/**/*.{woff,woff2}',
+        'img/**',
+        '.html'
+        ], {
+            base: "."
+        })
+        .pipe(gulp.dest('build'));
+});
+
 
 gulp.task('browser-sync', function() {   //отображение в браузере, сервер-локальный
     browserSync.init({
@@ -56,9 +94,20 @@ gulp.task('browser-sync', function() {   //отображение в брауз�
 });
 
 gulp.task('watch', ['browser-sync', 'sass'], function() {  //отображение в терминале изменений scss, html, js файлов
-
     gulp.watch('./sass/*.scss', ['sass']);
     gulp.watch('./*.html', browserSync.reload);
     gulp.watch('./js/**/*.js', browserSync.reload);
 });
 
+
+
+gulp.task('build', function(fn) {
+    run(
+        'clean',
+        'copy',
+        'style',
+        'images',
+        'symbols',
+        fn
+    );
+});
