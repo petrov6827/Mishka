@@ -115,17 +115,17 @@
   .main-nav__item-cart {
     top: -5px;
     left: 49px; }
-  .f {
-    font-size: 0;
-    height: 18px;
-    max-width: 18px;
-    padding-left: 60px; }
-  .page-header__logo,
+  u
+.page-header__logo,
+  .page-header__top,
   .page-header__logo-desktop,
   .main-nav__items-desktop,
   .dostavka {
     display: none;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .page-header__logo,
+  .page-header__top {
+    display: none; } }
 
 @media (min-width: 1150px) {
   .main-nav {
@@ -135,6 +135,7 @@
     position: absolute;
     text-align: center;
     top: 10px;
+    margin-left: 0;
     left: 45%;
     margin-bottom: 3px; }
   .left-column {

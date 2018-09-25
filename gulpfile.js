@@ -31,7 +31,7 @@ gulp.task('sass', function() {
                 'last 2 Edge versions',
                         ]}),
             mqpacker({
-                sort: true
+                sort: false
             })             
             ]))
         .pipe(gulp.dest('build/css'))
@@ -39,7 +39,7 @@ gulp.task('sass', function() {
         .pipe(minify())                      //минификация
         .pipe(rename('style.min.css'))      
         .pipe(gulp.dest('build/css'));
-})
+});
 
 gulp.task('sass', function() {           //преобразование scss ---> css
     return gulp.src('./sass/**/*.scss')
@@ -72,17 +72,21 @@ gulp.task('symbols', function() {                           //минификац
         .pipe(gulp.dest('build/img'));
 })
 
+gulp.task('clean', function() {
+    return del('build');
+});
+
 gulp.task('copy', function() {                             //копирование
     return gulp.src([
         'fonts/**/*.{woff,woff2}',
         'img/**',
-        '.html'
+        'js/**',
+        '*.html'
         ], {
             base: "."
         })
         .pipe(gulp.dest('build'));
 });
-
 
 gulp.task('browser-sync', function() {   //отображение в браузере, сервер-локальный
     browserSync.init({
@@ -99,13 +103,11 @@ gulp.task('watch', ['browser-sync', 'sass'], function() {  //отображен�
     gulp.watch('./js/**/*.js', browserSync.reload);
 });
 
-
-
 gulp.task('build', function(fn) {
     run(
         'clean',
         'copy',
-        'style',
+        'sass',
         'images',
         'symbols',
         fn

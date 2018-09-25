@@ -4,6 +4,8 @@
   "description": "Online Store",
   "main": "Gruntfile.js",
   "dependencies": {
+    "bootstrap": "^4.1.3",
+    "del": "^3.0.0",
     "grunt": "^1.0.3",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^2.0.0",
@@ -29,7 +31,8 @@
     "run-sequence": "^2.2.1"
   },
   "scripts": {
-    "start": "node your-script.js"
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
   },
   "repository": {
     "type": "git",
