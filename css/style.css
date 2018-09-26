@@ -149,8 +149,9 @@
     text-align: center;
     top: 10px;
     margin-left: 0;
-    left: 45%;
-    margin-bottom: 3px; }
+    margin-bottom: 3px;
+    left: 50%;
+    margin-left: -75px; }
   .left-column {
     float: left; }
     .left-column .main-nav__item:nth-child(3) {
@@ -216,7 +217,9 @@
       line-height: 24px;
       color: #444444;
       font-family: "Verdana";
-      text-align: right; } }
+      text-align: right; }
+  .greyback {
+    background-color: #f1f1f1; } }
 
 .main__background {
   position: relative;
@@ -298,7 +301,9 @@
     font-family: "Verdana";
     font-weight: bold;
     text-align: center;
-    padding-top: 60px; }
+    padding-top: 60px;
+    left: 50%;
+    margin-left: -350px; }
   .main__interior {
     width: 50%;
     bottom: 0;

@@ -78,7 +78,9 @@
     font-family: "Verdana";
     font-weight: bold;
     text-align: center;
-    padding-top: 60px; }
+    padding-top: 60px;
+    left: 50%;
+    margin-left: -350px; }
   .main__interior {
     width: 50%;
     bottom: 0;
