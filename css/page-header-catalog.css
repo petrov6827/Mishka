@@ -115,8 +115,7 @@
   .main-nav__item-cart {
     top: -5px;
     left: 49px; }
-  u
-.page-header__logo,
+  .page-header__logo,
   .page-header__top,
   .page-header__logo-desktop,
   .main-nav__items-desktop,
@@ -190,15 +189,16 @@
     top: -5px; }
   .main-nav__item-cart {
     top: 36px; }
-  .catalog__header-sale {
+  .main-nav__items-desktop {
     display: inline-block;
     padding-left: 0;
     margin: 0 auto;
-    margin-left: 0; }
-  .catalog__header-sale li {
+    margin-left: 0;
+    padding-bottom: 190px; }
+  .main-nav__items-desktop li {
     border: none;
     font-size: 14px; }
-    .catalog__header-sale li a {
+    .main-nav__items-desktop li a {
       text-decoration: none;
       color: #000000; }
   .dostavka {
@@ -213,11 +213,10 @@
       color: #444444;
       font-family: "Verdana";
       text-align: right; }
-  .catalog__header {
+  .greyback {
     background-color: #f1f1f1;
     position: relative;
-    display: flex;
-    padding-bottom: 190px; }
+    display: flex; }
   .main__catalog {
     position: absolute;
     font-size: 50px;

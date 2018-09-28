@@ -279,15 +279,14 @@
         top: 36px;
     }
 
-    .main-nav__items-desktop {
+    .catalog__header-sale {
         display: inline-block;
         padding-left: 0;
         margin: 0 auto;
         margin-left: 0;
-        padding-bottom: 190px;
-}
+    }
 
-    .main-nav__items-desktop li {
+    .catalog__header-sale li {
         border: none;
         font-size: 14px;
         a {
@@ -311,16 +310,16 @@
         }
     }
 
-    .greyback {
+    .catalog__header {
         background-color: #f1f1f1;
         position: relative;
         display: flex;
+        padding-bottom: 190px;
     }
     
     
     .main__catalog {
-        position: absolute;
-        
+        position: absolute;        
         font-size: 50px;
         line-height: 57px;
         color: #231f20;

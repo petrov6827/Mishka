@@ -234,4 +234,33 @@
         min-width: 525px;
         z-index: -1;
     }
+
+    .catalog__items ul {
+        list-style: none;
+        border: 1px solid #f1f1f1;
+    }
+
+    .item__img {}
+    .item__title {
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        font-family: "Verdana";
+        font-weight: bold;
+    }
+
+    .item__about {
+        font-size: 15px;
+        line-height: 30px;
+        color: #444444;
+        font-family: "Open Sans";        
+    }
+
+    .item__price {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        font-family: "Verdana";
+        font-weight: bold;
+    }
 }
