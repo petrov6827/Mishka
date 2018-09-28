@@ -235,9 +235,38 @@
         z-index: -1;
     }
 
+    .catalog__header {
+        background-color: #f1f1f1;
+        position: relative;
+        display: flex;
+        padding-bottom: 190px;
+    }
+        
+    .main__catalog {
+        position: absolute;        
+        font-size: 50px;
+        line-height: 57px;
+        color: #231f20;
+        font-family: "Verdana";
+        font-weight: bold;
+        text-align: center;
+        margin-top: 90px;
+        max-width: 697px;
+        margin-top: 100px;
+        left: 50%;
+        margin-left: -230px;
+    }
+
+    .zigzag-fill-catalog {
+        position: absolute;
+        bottom: 0px;
+    }
+
     .catalog__items ul {
         list-style: none;
         border: 1px solid #f1f1f1;
+        display: inline-block;
+        width: 30%;
     }
 
     .item__img {}
