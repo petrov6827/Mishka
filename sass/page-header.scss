@@ -246,8 +246,27 @@
         border-bottom: 1px solid #ebebeb;
     }
 
+    .main-nav__items-desktop {
+        display: inline-block;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .main-nav__items-desktop li {
+        width: auto;
+        text-decoration: none;
+        border: none;
+        font-size: 14px;
+    }
+
     .main-nav__item {
-        border-bottom: none;
+        border-bottom: none;        
+        padding: 28px;
+        padding-left: 50px;
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
     }
 
     .f {
@@ -310,31 +329,5 @@
         }
     }
 
-    .catalog__header {
-        background-color: #f1f1f1;
-        position: relative;
-        display: flex;
-        padding-bottom: 190px;
-    }
-    
-    
-    .main__catalog {
-        position: absolute;        
-        font-size: 50px;
-        line-height: 57px;
-        color: #231f20;
-        font-family: "Verdana";
-        font-weight: bold;
-        text-align: center;
-        margin-top: 90px;
-        max-width: 697px;
-        margin-top: 100px;
-        left: 50%;
-        margin-left: -230px;
-    }
 
-    .zigzag-fill-catalog {
-        position: absolute;
-        bottom: 0px;
-    }
 }

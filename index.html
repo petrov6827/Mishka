@@ -68,13 +68,17 @@
 
         <main>
             <div class="main__background">
-                <h1 class="main__slogan">Милые штуки ручной работы для дома</h1>
+                <h1 class="main__slogan">Милые штуки ручной<br>работы для дома</h1>
                  
                 <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
                 <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
 
-                <img class="hero-mobile" src="img/hero-mobile.png" alt="Задний фон" width="575" height="373">
-                <img class="hero-desktop" src="img/hero-desktop.png" width="1150" height="746">
+                <picture>
+                    <source media="(min-width: 1150px)" srcset="img/hero-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/hero-mobile.png">
+
+                    <img src="img/hero-mobile.png">
+                </picture>
                 
                 <img class="zigzag-fill" src="img/zigzag-fill.png">
                 <div class="mock"></div>

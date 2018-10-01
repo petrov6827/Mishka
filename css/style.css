@@ -184,8 +184,22 @@
   .main-nav {
     width: auto;
     border-bottom: 1px solid #ebebeb; }
+  .main-nav__items-desktop {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0; }
+  .main-nav__items-desktop li {
+    width: auto;
+    text-decoration: none;
+    border: none;
+    font-size: 14px; }
   .main-nav__item {
-    border-bottom: none; }
+    border-bottom: none;
+    padding: 28px;
+    padding-left: 50px; }
+    .main-nav__item a {
+      text-decoration: none;
+      color: #000000; }
   .f {
     border-bottom: none;
     font-size: 0; }
@@ -225,28 +239,7 @@
       line-height: 24px;
       color: #444444;
       font-family: "Verdana";
-      text-align: right; }
-  .catalog__header {
-    background-color: #f1f1f1;
-    position: relative;
-    display: flex;
-    padding-bottom: 190px; }
-  .main__catalog {
-    position: absolute;
-    font-size: 50px;
-    line-height: 57px;
-    color: #231f20;
-    font-family: "Verdana";
-    font-weight: bold;
-    text-align: center;
-    margin-top: 90px;
-    max-width: 697px;
-    margin-top: 100px;
-    left: 50%;
-    margin-left: -230px; }
-  .zigzag-fill-catalog {
-    position: absolute;
-    bottom: 0px; } }
+      text-align: right; } }
 
 .main__background {
   position: relative;
@@ -514,7 +507,10 @@
     min-width: 45%;
     margin-bottom: 50px; }
   .zigzag-line {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .catalog__items ul {
+    list-style: none;
+    border: 1px solid #f1f1f1; } }
 
 @media (min-width: 1150px) {
   .basket-tablet {
@@ -570,25 +566,41 @@
   .catalog__items ul {
     list-style: none;
     border: 1px solid #f1f1f1;
-    display: inline-block;
-    width: 30%; }
+    width: 316px;
+    padding-left: 0;
+    margin-left: 50px; }
+  .catalog__items li {
+    padding-left: 0;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .catalog__items .item__img {
+    margin-left: 0; }
+  .item__img {
+    margin-left: 0;
+    padding-left: 0; }
   .item__title {
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     font-family: "Verdana";
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 30px;
+    margin-bottom: 0; }
   .item__about {
     font-size: 15px;
     line-height: 30px;
     color: #444444;
-    font-family: "Open Sans"; }
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #f1f1f1; }
   .item__price {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
     font-family: "Verdana";
-    font-weight: bold; } }
+    font-weight: bold;
+    margin-bottom: 30px; } }
 
 .about {
   margin-left: 30px;
