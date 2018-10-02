@@ -162,8 +162,6 @@
         left: 49px;
     }
 
-   u
-
     .page-header__logo,
     .page-header__top,
     .page-header__logo-desktop,
@@ -176,6 +174,37 @@
     .page-header__logo,
     .page-header__top {
         display: none;
+    }
+
+    .main-nav__item a {
+        text-decoration: none;
+        color: #000000;
+
+    }
+
+    .catalog__links {
+        display: relative;
+        padding-left: 0;
+        li {
+            display: inline-block;
+            width: 140px;          
+            border-bottom: none;
+            padding-left: 50px;
+            padding-right: 28px;
+        }
+
+
+        li:nth-child(3) {
+            width: 40%;
+            position: absolute;
+            top: 15px;
+            right: -180px;
+            font-size: 14px;
+            line-height: 24px;
+            color: #444444;
+            font-family: "Verdana";
+            font-weight: lighter;
+        }   
     }
 }
 
@@ -329,5 +358,7 @@
         }
     }
 
-
+    .catalog__links {
+        display: none;
+    }
 }

@@ -223,6 +223,10 @@
 //desktop
 @media (min-width: 1150px) {
 
+    .reviews__background {
+        width: 30%;
+    }
+
     .reviews__title {
         line-height: 57px;
         font-size: 50px;
@@ -239,8 +243,8 @@
 
     .reviews__write-tablet {
         position: absolute;
-        right: 50px;
         width: 20%;
+        right: 20px;
     }
 
     .reviews__next,
