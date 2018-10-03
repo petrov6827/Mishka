@@ -15,7 +15,7 @@
     "grunt-sass-to-scss": "^0.1.9"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.24.7",
     "css-mqpacker": "^7.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",

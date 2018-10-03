@@ -63,16 +63,20 @@
     color: #000000;
 }
 
+
+
 //mobile
 @media (max-width: 767px) {
     .main-nav {
         margin: 0 auto;
     }
+
     .page-header__logo-tablet,
     .left-column .main-nav__item:nth-child(3),
     .page-header__logo-desktop,
     .main-nav__items-desktop,
-    p.dostavka {
+    .dostavka,
+    .catalog__header {
         display: none;
         font-size: 0
     }
@@ -89,9 +93,12 @@
         }
     }
 
-    .main-nav--opened {
+    .main-nav--opened,
+    .left-column {
         display: block;
     }
+
+
 }
 
 //tablet
@@ -113,6 +120,7 @@
 
     .main-nav__item a {
         position: relative;
+        padding-left: 0;
     }
 
     .main-nav__item-find {
@@ -206,6 +214,15 @@
             font-weight: lighter;
         }   
     }
+
+    .left-column li {
+        display: none;
+    }
+
+    .page-header__logo-tablet {
+        position: absolute;
+        top: 15px;
+    }
 }
 
 //desktop
@@ -295,8 +312,10 @@
         a {
             text-decoration: none;
             color: #000000;
+            padding-left: 0px;
         }
     }
+
 
     .f {
         border-bottom: none;
@@ -359,6 +378,10 @@
     }
 
     .catalog__links {
+        display: none;
+    }
+
+    .left-column li {
         display: none;
     }
 }
