@@ -324,17 +324,27 @@
 
     .main-nav {
         position: relative;
-    }
-
-    .page-header__logo-tablet {
-        position: absolute;
-        top: 15px;
-        left: 50%;
-        margin-left: -100px;
-    }
+    }    
 
     .main-nav__item a {
         padding-left: 0;
+    }
+
+    .item__img {
+        display: inline-block;
+        width: 45%;
+        height: 330px;
+    }
+
+    .item__title,
+    .item__about,
+    .item__price {
+        display: inline-block;
+        width: 45%;        
+    }
+
+    .item__about {
+        padding-bottom: 180px;
     }
 }
 
@@ -479,5 +489,5 @@
         margin-top: 0;
     }
 
-    
+
 }

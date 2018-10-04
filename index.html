@@ -8,30 +8,25 @@
 
     <body>
         <header class="page-header">
-    
-            <div class="page-header__logo  page-header__top">
-                <img src="img/logo-mobile.png">
-                <a href="#" class="page-header__toggle">&#9776</a>
-            </div>
-           
-            <nav class="main-nav  main-nav--closed">
-                <picture>
-                    <source media="(min-width: 1150px)" srcset="img/logo-desktop.png">
-                    <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
-                    <img src="img/logo-mobile.png">
-                </picture>
 
-                <div class="page-header__logo">
-                    <img src="img/logo-mobile.png" width="88px" height="36px">
-                    <a href="#" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png"></a>
-                </div>                
-                <ul class="main-nav__items  left-column">
+<!-- главное меню -->
+            <nav class="main-nav">
+
+<!-- логотип мобильной планшетной и декстопной версий -->
+                <div class="logo">
+                    <picture>
+                        <source media="(min-width: 1150px)" srcset="img/logo-desktop.png">
+                        <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
+                        <img src="img/logo-mobile.png">
+                        <a href="#" class="page-header__toggle">&#9776</a>
+                        <a href="#" class="main-nav__close-hidden  main-nav__close"><img src="img/menu-close.png"></a>
+                    </picture>
+                </div>
+
+<!-- меню мобильной версии -->
+                <ul class="main-nav__items">
                     <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
-                    <li class="main-nav__item"><a href="">Вязание на заказ</a></li>
-                    <li class="main-nav__item"><a href="">Бесплатная доставка по России</a></li>
-                </ul>
-                
-                <ul class="main-nav__items  right-column  clearfix">
+                    <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
                     <li class="main-nav__item  f">
                         <a href="">
                             <svg width="15" height="15" class="main-nav__item-find">
@@ -47,19 +42,17 @@
                             </svg>
                             Корзина: пока пуста
                         </a>
-                    </li> 
-                </ul>                  
+                    </li>
+                </ul>
+       
             </nav>
 
-
-
-
-
-
+<!-- дополнительные ссылки на новые поступления и распродажу в десктопной версии-->
             <ul class="main-nav__items-desktop">
                 <li class="main-nav__item"><a href="">Новые поступления</a></li>
                 <li class="main-nav__item"><a href="">Распродажа</a></li>
             </ul>
+<!-- ссылка Бесплатной доставки десктопной версии -->
             <p class="dostavka">
                     <a href="">Бесплатная доставка по России</a>
             </p>                       
