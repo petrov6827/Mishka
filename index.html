@@ -8,49 +8,47 @@
 
     <body>
         <header class="page-header">
-
 <!-- главное меню -->
             <nav class="main-nav">
-
 <!-- логотип мобильной планшетной и декстопной версий -->
                 <div class="logo">
                     <picture>
                         <source media="(min-width: 1150px)" srcset="img/logo-desktop.png">
                         <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
                         <img src="img/logo-mobile.png">
-                        <a href="#" class="page-header__toggle">&#9776</a>
+                        <a href="#" class="main-nav__toggle">&#9776</a>
                         <a href="#" class="main-nav__close-hidden  main-nav__close"><img src="img/menu-close.png"></a>
                     </picture>
                 </div>
-
 <!-- меню мобильной версии -->
-                <ul class="main-nav__items">
-                    <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
-                    <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
-                    <li class="main-nav__item  f">
-                        <a href="">
-                            <svg width="15" height="15" class="main-nav__item-find">
-                            <use href="img/icons/search.svg"></use>
-                            </svg>
-                            Поиск по сайту
-                        </a>
-                    </li>
-                    <li class="main-nav__item  c">
-                        <a href="#">
-                            <svg width="15" height="15" class="main-nav__item-cart">
-                            <use href="img/icons/cart.svg"></use> 
-                            </svg>
-                            Корзина: пока пуста
-                        </a>
-                    </li>
-                </ul>
-       
+                <div class="menu">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
+                        <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
+                        <li class="main-nav__item  f">
+                            <a href="">
+                                <svg width="15" height="15" class="main-nav__item-find">
+                                <use href="img/icons/search.svg"></use>
+                                </svg>
+                                Поиск по сайту
+                            </a>
+                        </li>
+                        <li class="main-nav__item  c">
+                            <a href="#">
+                                <svg width="15" height="15" class="main-nav__item-cart">
+                                <use href="img/icons/cart.svg"></use> 
+                                </svg>
+                                Корзина: пока пуста
+                            </a>
+                        </li>
+                    </ul> 
+                </div>       
             </nav>
 
 <!-- дополнительные ссылки на новые поступления и распродажу в десктопной версии-->
             <ul class="main-nav__items-desktop">
-                <li class="main-nav__item"><a href="">Новые поступления</a></li>
-                <li class="main-nav__item"><a href="">Распродажа</a></li>
+                <li class="main-nav__item  desktop__item"><a href="">Новые поступления</a></li>
+                <li class="main-nav__item  desktop__item"><a href="">Распродажа</a></li>
             </ul>
 <!-- ссылка Бесплатной доставки десктопной версии -->
             <p class="dostavka">
@@ -61,30 +59,22 @@
 
         <main>
             <div class="main__background">
-                <h1 class="main__slogan">Милые штуки ручной<br>работы для дома</h1>
-                 
-                <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
-                <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
+                <h1 class="main__slogan">Милые штуки ручной<br>работы для дома</h1>    
 
                 <picture>
                     <source media="(min-width: 1150px)" srcset="img/hero-desktop.png">
                     <source media="(min-width: 768px)" srcset="img/hero-mobile.png">
 
-                    <img src="img/hero-mobile.png">
-                </picture>
-                
-                <img class="zigzag-fill" src="img/zigzag-fill.png">
-                <div class="mock"></div>
+                    <img src="img/hero-mobile.png"  width="575" height="373">
+                </picture>                
 
+                <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
+                <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
+                <img class="zigzag-fill" src="img/zigzag-fill.png">
             </div>
         </main>
 
-        <section class="items">
-
-            <div class="basket-desktop">
-                <img src="img/basket-desktop.png" alt="baskets-desktop" width="525" height="636">
-            </div>
-
+        <section class="items">       
             <h1 class="items__title">Вязаные корзинки</h1>
             <p class="items__top-sales">Товар недели</p>
             <p class="items__about">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
@@ -102,15 +92,13 @@
                     <td>15см</td>
                 </tr>
             </table>
-            
-            <div class="items__picture  basket-mobile">
-                <img src="img/basket.png" alt="baskets" width="260px" height="315px">
-                
+            <div class="item__img">
+                <picture>
+                    <source media="(min-width: 1150px)" srcset="img/basket-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/basket-tablet.png">
+                    <img src="img/basket.png" width="260" height="315">
+                </picture>
             </div>
-            <div class="basket-tablet">
-                <img src="img/basket-tablet.png" alt="baskets-tablet" width="333" height="404">
-            </div>
-            
             <p class="items__price">Цена: 990 руб.</p>
             <button class="items__buy  btn" type="button" href="#">Заказать</button>
             <img class="zigzag-line" src="img/zigzag-line.png">
@@ -217,5 +205,6 @@
         </footer>
 
         <script type="text/javascript" src="js/script.js"></script>
+        
     </body>
 </html>
