@@ -8,8 +8,7 @@
 
     <body>
         <header class="page-header">
-<!-- главное меню -->
-            <nav class="main-nav">
+            <!-- <nav class="main-nav"> -->
 <!-- логотип мобильной планшетной и декстопной версий -->
                 <div class="logo">
                     <picture>
@@ -17,15 +16,16 @@
                         <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
                         <img src="img/logo-mobile.png">
                         <a href="#" class="main-nav__toggle">&#9776</a>
-                        <a href="#" class="main-nav__close-hidden  main-nav__close"><img src="img/menu-close.png"></a>
+                        <a href="#" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png"></a>
                     </picture>
                 </div>
+
 <!-- меню мобильной версии -->
                 <div class="menu">
-                    <ul class="main-nav__items">
+                    <ul class="main-nav">
                         <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
                         <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
-                        <li class="main-nav__item  f">
+                        <li class="main-nav__item  main-nav__item--find">
                             <a href="">
                                 <svg width="15" height="15" class="main-nav__item-find">
                                 <use href="img/icons/search.svg"></use>
@@ -33,7 +33,7 @@
                                 Поиск по сайту
                             </a>
                         </li>
-                        <li class="main-nav__item  c">
+                        <li class="main-nav__item  main-nav__item--cart">
                             <a href="#">
                                 <svg width="15" height="15" class="main-nav__item-cart">
                                 <use href="img/icons/cart.svg"></use> 
@@ -43,15 +43,16 @@
                         </li>
                     </ul> 
                 </div>       
-            </nav>
+           <!--  </nav> -->
 
 <!-- дополнительные ссылки на новые поступления и распродажу в десктопной версии-->
-            <ul class="main-nav__items-desktop">
-                <li class="main-nav__item  desktop__item"><a href="">Новые поступления</a></li>
-                <li class="main-nav__item  desktop__item"><a href="">Распродажа</a></li>
+            <ul class="main-nav__desktop">
+                <li class="main-nav__item  main-nav__item--desktop"><a href="">Новые поступления</a></li>
+                <li class="main-nav__item  main-nav__item--desktop"><a href="">Распродажа</a></li>
             </ul>
+
 <!-- ссылка Бесплатной доставки десктопной версии -->
-            <p class="dostavka">
+            <p class="delivery">
                     <a href="">Бесплатная доставка по России</a>
             </p>                       
             
@@ -63,8 +64,6 @@
 
                 <picture>
                     <source media="(min-width: 1150px)" srcset="img/hero-desktop.png">
-                    <source media="(min-width: 768px)" srcset="img/hero-mobile.png">
-
                     <img src="img/hero-mobile.png"  width="575" height="373">
                 </picture>                
 
@@ -191,8 +190,9 @@
                 <p class="page-footer__social">
                     <span class="social-links">
                         <a class="social-link  social-link--in" href="https://instagram.com/htmlcademy">
-                            <svg width='22' height='22'>   
-                                <use src="img/icons/insta.svg">
+                            <svg>                                            
+</svg>
+
                             </svg>
                         </a>
                         <a class="social-link  social-link--fb" href="https://facebook.com/htmlcademy"><img src="img/icons/fb.svg"></a>

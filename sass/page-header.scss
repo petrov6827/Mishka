@@ -30,7 +30,7 @@
     }
 }
 
-.main-nav__items {
+.main-nav {
     padding-left: 0;
     margin: 0;
 }
@@ -54,13 +54,9 @@
     color: #000000;
 }
 
-
-
-
-
 //mobile
 @media (max-width: 767px) {
-    .main-nav {
+    .page-header {
         margin: 0 auto;       
     }
 
@@ -71,16 +67,16 @@
         border-bottom: 1px solid #ebebeb;
     }
 
-    .main-nav__items {
+    .main-nav {
         margin-left: 0;
     }
 
-    .main-nav__items,
-    .main-nav__items-desktop,
-    .dostavka,
+    .main-nav,
+    .main-nav__desktop,
+    .delivery,
     .catalog__header,
-    .main-nav__toggle-hidden,
-    .main-nav__close-hidden {
+    .main-nav__toggle--hidden,
+    .main-nav__close--hidden {
         display: none;
         font-size: 0
     }
@@ -93,14 +89,15 @@
         display: none;
     }
 
-    .menu-show {
+    .menu--show {
         display: block;
-    }
+    }    
 }
 
 //tablet
 @media (min-width: 768px) {
-    .main-nav { 
+    .page-header
+     { 
         width: auto;
         min-height: 70px;
         margin: 0;        
@@ -137,15 +134,10 @@
         float: right;
     }
     
-    .main-nav__item-cart {
-        top: -5px;
-        left: 49px;
-    }
-
     .logo a,
     .page-header__top,
     .page-header__logo-desktop,
-    .main-nav__items-desktop {
+    .main-nav__desktop {
         display: none;
         margin-right: 10px;
     }
@@ -184,37 +176,33 @@
         }   
     }
 
-    .page-header__logo-tablet {
-        position: absolute;
-        top: 15px;
-    }
-
     .main-nav__toggle,
     .main-nav__close {
         display: none;
     }
 
-    .f,
-    .c {
+    .main-nav__item--find,
+    .main-nav__item--cart {
         position: absolute;
-        top: -25px;        
+        top: 0px;        
         border-left: 1px solid #ebebeb;
     }
 
-    .f {
+    .main-nav__item--find {
         right: 315px;
-        padding-bottom: 26px;
+        padding-bottom: 24px;
+        padding-left: 0;
         a {
             font-size: 0;
         }
     }
 
-    .c {
+    .main-nav__item--cart {
         right: 0px;
-        padding-bottom: 31px;
+        padding-bottom: 28px;
         padding-left: 75px;
     }
-
+    
     .logo {
         display: block;
         margin-top: 22px;
@@ -222,7 +210,7 @@
         border-bottom: 1px solid #ebebeb;
     }
 
-    .dostavka {
+    .delivery {
         position: absolute;
         right: 30px;
         top: 95px;
@@ -240,7 +228,7 @@
 
 //desktop
 @media (min-width: 1150px) {
-    .main-nav {
+    .page-header {
         width: auto;       
     }
 
@@ -248,7 +236,7 @@
         margin-top: 0;
     }
 
-    .main-nav picture {
+    .page-header picture {
         position: absolute;
         text-align: center;
         margin-left: 0;
@@ -261,8 +249,7 @@
         margin-left: 0;
     }
 
-
-    .main-nav__items {
+    .main-nav {
         margin-left: 0px;
         padding-left: 0px;
         li:nth-child(2) {
@@ -279,30 +266,26 @@
         border-bottom: 1px solid #ebebeb;
     }
 
-    .main-nav__items-desktop {
+    .main-nav__desktop {
         display: inline-block;
         list-style: none;
         padding-left: 20px;
         margin: 0 auto;
     }
 
-    .page-header__logo-desktop:hover,
-    .main-nav__items li:hover,
-    .right-column li a:hover,
-    .main-nav__items-desktop li:hover, 
-    .dostavka:hover {
+    .main-nav li:hover,
+    .main-nav__desktop li:hover, 
+    .delivery:hover {
         opacity: 0.6;
     }
 
-    .page-header__logo-desktop:active,
-    .main-nav__items li:active,
-    .right-column li a:active,
-    .main-nav__items-desktop li:active,
-    .dostavka:active {
+    .main-nav li:active,
+    .main-nav__desktop li:active,
+    .delivery:active {
         opacity: 0.3;
     }    
 
-    .main-nav__items-desktop li {
+    .main-nav__desktop li {
         width: auto;
         text-decoration: none;
         border: none;
@@ -323,19 +306,19 @@
         
     }
 
-    .desktop__item {
+    .main-nav__item--desktop {
         padding: 20px;
         padding-left: 28px;
     }
 
-    .f,
-    .c {
+    .main-nav__item--find,
+    .main-nav__item--cart {
         position: absolute;
         top: 0px;        
         border-left: 1px solid #ebebeb;
     }
 
-    .f {
+    .main-nav__item--find {
         right: 315px;
         padding-bottom: 24px;
         padding-left: 0;
@@ -344,13 +327,11 @@
         }
     }
 
-    .c {
+    .main-nav__item--cart {
         right: 0px;
         padding-bottom: 28px;
         padding-left: 75px;
     }
-
-
 
     .catalog__header-sale {
         display: inline-block;
@@ -368,7 +349,7 @@
         }
     }
 
-    .dostavka {
+    .delivery {
         display: inline-block;
         float: right;
         padding-top: 5px;

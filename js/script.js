@@ -6,18 +6,19 @@ var navClose = document.querySelector('.main-nav__close');   //закрыть м
 
 navToggle.addEventListener('click', function(event) {        //клик на тогл
     event.preventDefault();
-    navToggle.classList.add('main-nav__toggle-hidden');      //добавить класс к тоглу
-    navClose.classList.remove('main-nav__close-hidden');     //убрать класс у кнопки закрыть
+    navToggle.classList.add('main-nav__toggle--hidden');      //добавить класс к тоглу
+    navClose.classList.remove('main-nav__close--hidden');     //убрать класс у кнопки закрыть
     nav.classList.add('menu-show');          //+ класс показывающий меню
 });
 
 navClose.addEventListener('click', function(event) {         //клик на закрыть
     event.preventDefault();
-    navToggle.classList.remove('main-nav__toggle-hidden');   //убрать класс у тогла
-    navClose.classList.add('main-nav__close-hidden');        //добавить класс кнопке закрыть
+    navToggle.classList.remove('main-nav__toggle--hidden');   //убрать класс у тогла
+    navClose.classList.add('main-nav__close--hidden');        //добавить класс кнопке закрыть
     //nav.classList.add('main-nav__items-hidden');             
-    nav.classList.remove('menu-show');            //убрать класс показывающий меню
+    nav.classList.remove('menu--show');            //убрать класс показывающий меню
 });
+
 
 // navToggle.addEventListener('click', function() {
 //     if (navMain.classList.contains('main-nav__items-hidden')) {
