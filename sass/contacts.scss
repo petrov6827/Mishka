@@ -114,7 +114,7 @@
     }
 
     .contacts__table tr {
-        width: 50%;
+        margin-right: 30px;
     }
 
     .contacts__table tr:nth-child(1) {
@@ -181,6 +181,7 @@
     .contacts__table tr {
         display: table;
         width: 30%;
+        margin-right: 0;
     }
 
     .contacts__table tr:nth-child(1) {

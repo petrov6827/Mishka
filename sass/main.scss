@@ -81,7 +81,9 @@
 @media (min-width: 768px) {
 
     .main__background {
-        top: -30px;
+        top: -83px;        
+        background-color: #f9f9f9;
+        margin-bottom: 50px;
     }
 
     .hero-mobile {
@@ -124,13 +126,15 @@
         position: absolute;
         bottom: -72px;
     }
-
-
 }
 
 
 //desktop
 @media (min-width: 1150px) {
+    .main__background {
+        top: -65px;
+        margin-bottom: 70px;
+    }
 
     .main__toy,
     .main__interior {

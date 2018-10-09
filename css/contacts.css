@@ -86,7 +86,7 @@
     min-width: 100%;
     font-size: 16px; }
   .contacts__table tr {
-    width: 50%; }
+    margin-right: 30px; }
   .contacts__table tr:nth-child(1) {
     float: left; }
   .contacts__table tr:nth-child(2) {
@@ -124,7 +124,8 @@
     min-width: 300px; }
   .contacts__table tr {
     display: table;
-    width: 30%; }
+    width: 30%;
+    margin-right: 0; }
   .contacts__table tr:nth-child(1) {
     display: inline-block;
     width: 100%; }

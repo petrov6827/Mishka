@@ -8,7 +8,7 @@ navToggle.addEventListener('click', function(event) {        //клик на т�
     event.preventDefault();
     navToggle.classList.add('main-nav__toggle--hidden');      //добавить класс к тоглу
     navClose.classList.remove('main-nav__close--hidden');     //убрать класс у кнопки закрыть
-    nav.classList.add('menu-show');          //+ класс показывающий меню
+    nav.classList.add('menu--show');          //+ класс показывающий меню
 });
 
 navClose.addEventListener('click', function(event) {         //клик на закрыть

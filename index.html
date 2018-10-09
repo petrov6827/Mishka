@@ -8,65 +8,50 @@
 
     <body>
         <header class="page-header">
-            <!-- <nav class="main-nav"> -->
-<!-- логотип мобильной планшетной и декстопной версий -->
-                <div class="logo">
-                    <picture>
-                        <source media="(min-width: 1150px)" srcset="img/logo-desktop.png">
-                        <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
-                        <img src="img/logo-mobile.png">
-                        <a href="#" class="main-nav__toggle">&#9776</a>
-                        <a href="#" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png"></a>
-                    </picture>
-                </div>
-
-<!-- меню мобильной версии -->
-                <div class="menu">
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
-                        <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
-                        <li class="main-nav__item  main-nav__item--find">
-                            <a href="">
-                                <svg width="15" height="15" class="main-nav__item-find">
-                                <use href="img/icons/search.svg"></use>
-                                </svg>
-                                Поиск по сайту
-                            </a>
-                        </li>
-                        <li class="main-nav__item  main-nav__item--cart">
-                            <a href="#">
-                                <svg width="15" height="15" class="main-nav__item-cart">
-                                <use href="img/icons/cart.svg"></use> 
-                                </svg>
-                                Корзина: пока пуста
-                            </a>
-                        </li>
-                    </ul> 
-                </div>       
-           <!--  </nav> -->
-
-<!-- дополнительные ссылки на новые поступления и распродажу в десктопной версии-->
+            <div class="logo">
+                <picture>
+                    <source media="(min-width: 1150px)" srcset="img/logo-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
+                    <img src="img/logo-mobile.png">
+                    <a href="#" class="main-nav__toggle">&#9776</a>
+                    <a href="index.html" class="main-nav__close--hidden  main-nav__close"><img src="img/menu-close.png"></a>
+                </picture>
+            </div>
+            <div class="menu">
+                <ul class="main-nav">
+                    <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
+                    <li class="main-nav__item"><a href="">Вязание на заказ</a></li>                    
+                    <li class="main-nav__item  main-nav__item--find">
+                        <a href="">
+                            <img class="find__img" src="img/f1.png>" width="18" height="19" alt="Поиск">
+                            Поиск по сайту
+                        </a>
+                    </li>
+                    <li class="main-nav__item  main-nav__item--cart">
+                        <a href="#">
+                            <img class="cart__img" src="img/cart.png" width="21" height="18" alt="Корзина">
+                            Корзина: пока пуста
+                        </a>
+                    </li>
+                </ul> 
+            </div>
             <ul class="main-nav__desktop">
                 <li class="main-nav__item  main-nav__item--desktop"><a href="">Новые поступления</a></li>
                 <li class="main-nav__item  main-nav__item--desktop"><a href="">Распродажа</a></li>
             </ul>
-
-<!-- ссылка Бесплатной доставки десктопной версии -->
             <p class="delivery">
-                    <a href="">Бесплатная доставка по России</a>
-            </p>                       
-            
+                <a href="">Бесплатная доставка по России</a>
+            </p>
         </header>
 
         <main>
             <div class="main__background">
                 <h1 class="main__slogan">Милые штуки ручной<br>работы для дома</h1>    
-
                 <picture>
                     <source media="(min-width: 1150px)" srcset="img/hero-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/hero-mobile.png">
                     <img src="img/hero-mobile.png"  width="575" height="373">
-                </picture>                
-
+                </picture>
                 <button class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></button>
                 <button class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></button>
                 <img class="zigzag-fill" src="img/zigzag-fill.png">
@@ -101,7 +86,6 @@
             <p class="items__price">Цена: 990 руб.</p>
             <button class="items__buy  btn" type="button" href="#">Заказать</button>
             <img class="zigzag-line" src="img/zigzag-line.png">
-
         </section>
             
         <div class="about  clearfix">
@@ -113,8 +97,7 @@
                 <div class="table__item"><img clas="item__img" src="img/icon-4.svg.png"><p class="item__text">Поддержка отечественного производителя</p></div>
                 <div class="table__item"><img clas="item__img" src="img/icon-5.svg.png"><p class="item__text">Увеличивает лайки на фотографиях</p></div>
                 <div class="table__item"><img clas="item__img" src="img/icon-6.svg.png"><p class="item__text">Поставляется в подарочной упаковке</p></div>
-            </div>
-            
+            </div>            
         </div>
 
         <section class="reviews">
@@ -125,8 +108,7 @@
                 <input type="radio" name="reviews" id="slide1" checked> 
                 <!--добавить привязку к радиобатонам-->
                 <input type="radio" name="reviews" id="slide2"> 
-                <input type="radio" name="reviews" id="slide3">
-                
+                <input type="radio" name="reviews" id="slide3">                
                 <div class="slider">
                     <div class="slides slide1">
                         <blockquote class="reviews__slide1">
@@ -138,28 +120,22 @@
                     <div class="slides slide2">второй отзыв</div>
                     <div class="slides slide3">третий отзыв</div>
                 </div>
-
                 <div class="controls">
                     <label for="slide1"></label>
                     <label for="slide2"></label>
                     <label for="slide3"></label>
                 </div>
-
                 <button class="reviews__preview" href="#"><img class="arrow" src="img/icons/arrow-left.svg"></button>
-                <button class="reviews__next" href="#"><img class="arrow" src="img/icons/arrow-right.svg"></button>
-                
-                <button class="reviews__write-mobile  btn" type="button" href="#">Написать</button>    
-                
+                <button class="reviews__next" href="#"><img class="arrow" src="img/icons/arrow-right.svg"></button>                
+                <button class="reviews__write-mobile  btn" type="button" href="#">Написать</button>
                 <img class="zigzag" src="img/zigzag.png" alt="zig-zag">
-                
             </div>
             <img class="zigzag-line" src="img/zigzag-line.png">
         </section> 
 
         <div class="contacts">
             <h1 class="contacts__title">Контакты</h1>
-            <img class="contacts__flag" src="img/flag.png">
-            
+            <img class="contacts__flag" src="img/flag.png">            
             <table class="contacts__table">
                 <tr>                        
                     <td>e-mail:</td>
@@ -179,7 +155,6 @@
                 <iframe class="map__mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533216!2d30.32085871635206!3d59.93871648187625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1534296050530" width="320" height=456" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <iframe class="map__tablet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003192!2d30.32085871623127!3d59.93871916905404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x62740c0ffcd8a91f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsIDEwMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTE4Ng!5e0!3m2!1sru!2sru!4v1535660444247" width="768" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <iframe class="map__desktop" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533268!2d30.32085871637125!3d59.938716481876156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x62740c0ffcd8a91f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsIDEwMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTE4Ng!5e0!3m2!1sru!2sru!4v1536239385585" width="525" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
-
             </div>
             <button class="contacts__write btn" type="button" href="#">Напишите нам</button>
         </div>
@@ -189,22 +164,15 @@
                 <div class="page-footer__logo"><img src="img/logo-footer.png"></div> <!--скрыта для моб версии-->            
                 <p class="page-footer__social">
                     <span class="social-links">
-                        <a class="social-link  social-link--in" href="https://instagram.com/htmlcademy">
-                            <svg>                                            
-</svg>
-
-                            </svg>
-                        </a>
-                        <a class="social-link  social-link--fb" href="https://facebook.com/htmlcademy"><img src="img/icons/fb.svg"></a>
+                        <a class="social-link  social-link--in" href="https://instagram.com/htmlcademy"><img src="img/insta.png"></a>
+                        <a class="social-link  social-link--fb" href="https://facebook.com/htmlcademy"><img src="img/fb.png"></a>
                         <a class="social-link  social-link--tw" href="https://twitter.com/htmlcademy"><img src="img/tw.png"></a>
-                        <!-- PNG работает. SVG - нет.. -->
                     </span>
                 </p>
                  <a class="page-footer__copyright-link" href="htmlacademy.ru">Разработано<img src="img/htmlacademy.png" width="27" height="34"></a>
              </div>
         </footer>
 
-        <script type="text/javascript" src="js/script.js"></script>
-        
+        <script type="text/javascript" src="js/script.js"></script>        
     </body>
 </html>
