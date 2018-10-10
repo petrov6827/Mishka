@@ -74,12 +74,16 @@
 
     .main__background {
         top: -30px;
-    }    
+    }
+
+    .item__img {
+        width: 260px;
+        background: url(img/icons)
+    }
 }
 
 //tablet
 @media (min-width: 768px) {
-
     .main__background {
         top: -83px;        
         background-color: #f9f9f9;
@@ -126,6 +130,7 @@
         position: absolute;
         bottom: -72px;
     }
+
 }
 
 
