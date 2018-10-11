@@ -464,33 +464,39 @@
     display: none; }
   .menu--show {
     display: show; }
+  .production {
+    margin: 0 auto; }
   .production ul {
     position: relative;
     display: block;
     width: auto;
     min-height: 375px;
-    margin-right: 0;
-    width: 320px; }
+    margin-right: 0 auto;
+    width: 320px;
+    border: 1px solid #f1f1f1; }
   .production li {
     list-style: none;
-    border: 1px solid #f1f1f1;
-    width: 316px;
-    padding-left: 0; }
+    border-collapse: collapse; }
   .production__video {
     margin-top: 50px;
-    min-height: 150px; }
+    min-height: 150px;
+    padding-top: 95px; }
+    .production__video video {
+      width: 100%; }
   .production__title {
     display: inline-block;
-    width: 167px;
+    max-width: 167px;
     position: absolute;
-    top: 10px;
-    left: 90px; }
+    top: 0px;
+    left: 110px; }
   .production__logo {
     position: absolute;
     left: 70px;
     top: 42px; }
   .production__about {
-    padding: 30px; }
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 50px; }
   .production__order {
     width: 100%; } }
 
