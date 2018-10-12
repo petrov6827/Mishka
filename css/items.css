@@ -74,6 +74,9 @@
   display: block;
   position: relative; }
 
+.item__img {
+  margin: 0; }
+
 @media (max-width: 767px) {
   .basket-tablet,
   .basket-desktop {

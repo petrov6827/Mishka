@@ -1,7 +1,4 @@
-.reviews {
-    margin-left: 30px;
-    
-}
+
 
 .reviews__title {
     font-size: 24px;
@@ -133,7 +130,7 @@
 @media (max-width: 767px) {
     .reviews {
         margin: 0 auto;
-        margin-left: 30px;
+        padding-left: 30px; 
     }
 
     .reviews__wrapper {
@@ -153,7 +150,6 @@
 
 //tablet
 @media (min-width: 768px) {
-
     .reviews {
         position: relative;
         margin-left: 30px;

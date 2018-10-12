@@ -1,5 +1,4 @@
 .page-footer {
-  margin-left: 30px;
   background-color: #f1f1f1; }
 
 .social-links {
@@ -43,8 +42,7 @@
 
 @media (max-width: 767px) {
   .reviews {
-    margin: 0 auto;
-    margin-left: 30px; }
+    margin: 0 auto; }
   .page-footer__logo {
     display: none; } }
 
