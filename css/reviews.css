@@ -168,6 +168,8 @@
     right: 12%; } }
 
 @media (min-width: 1150px) {
+  .reviews {
+    margin: 0 auto; }
   .reviews__background {
     width: 30%; }
   .reviews__title {

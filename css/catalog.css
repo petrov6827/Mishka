@@ -226,6 +226,14 @@
     right: 34px;
     padding-bottom: 30px;
     padding-left: 75px; }
+  .main-nav__catalog li:hover,
+  .main-nav__catalog--desktop li:hover,
+  .delivery:hover {
+    opacity: 0.6; }
+  .main-nav__catalog li:active,
+  .main-nav__catalog--desktop li:active,
+  .delivery:active {
+    opacity: 0.3; }
   img.find__img {
     margin-left: 20px; }
   .production li {

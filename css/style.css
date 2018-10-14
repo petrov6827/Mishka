@@ -597,6 +597,14 @@
     right: 34px;
     padding-bottom: 30px;
     padding-left: 75px; }
+  .main-nav__catalog li:hover,
+  .main-nav__catalog--desktop li:hover,
+  .delivery:hover {
+    opacity: 0.6; }
+  .main-nav__catalog li:active,
+  .main-nav__catalog--desktop li:active,
+  .delivery:active {
+    opacity: 0.3; }
   img.find__img {
     margin-left: 20px; }
   .production li {
@@ -772,6 +780,49 @@
     width: 100%; }
   .production__title {
     margin-top: 30px; } }
+
+@media (max-width: 767px) {
+  .main__form {
+    background-color: #f1f1f1;
+    font-size: 24px;
+    line-height: 30px;
+    color: #231f20;
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: center;
+    padding: 75px 0;
+    margin: 0 auto; }
+  .catalog {
+    position: relative; } }
+
+@media (min-width: 768px) {
+  .main__form {
+    position: absolute;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231f20;
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 697px;
+    left: 50%;
+    margin-left: -150px;
+    top: -220px; }
+  .catalog {
+    position: relative; } }
+
+@media (min-width: 1150px) {
+  .main__form {
+    font-size: 50px;
+    line-height: 57px;
+    color: #231f20;
+    font-family: "Verdana";
+    font-weight: bold;
+    text-align: center;
+    max-width: 697px;
+    left: 50%;
+    margin-left: -200px; } }
 
 .items {
   content: "";
@@ -1197,6 +1248,8 @@
     right: 12%; } }
 
 @media (min-width: 1150px) {
+  .reviews {
+    margin: 0 auto; }
   .reviews__background {
     width: 30%; }
   .reviews__title {
@@ -1270,10 +1323,13 @@
 
 .contacts__map {
   position: relative;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center; }
 
 @media (max-width: 767px) {
-  .contacts {
+  .contacts,
+  .contacts__table {
     margin: 0 auto; }
   .map__tablet,
   .map__desktop,
@@ -1293,9 +1349,7 @@
     font-family: "Verdana";
     font-weight: bold;
     padding-top: 0;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 20px 0 50px 30px;
     min-width: 170px; }
   .contacts__flag {
     display: inline-block;
@@ -1422,4 +1476,10 @@
     top: 55px; }
   .social-links {
     border-bottom: none;
-    padding-top: 30px; } }
+    padding-top: 30px; }
+  a.page-footer__copyright-link:hover,
+  a.page-footer__logo:hover {
+    opacity: 0.6; }
+  a.page-footer__copyright-link:active,
+  a.page-footer__logo:active {
+    opacity: 0.3; } }

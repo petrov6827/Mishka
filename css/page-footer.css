@@ -61,4 +61,10 @@
     top: 55px; }
   .social-links {
     border-bottom: none;
-    padding-top: 30px; } }
+    padding-top: 30px; }
+  a.page-footer__copyright-link:hover,
+  a.page-footer__logo:hover {
+    opacity: 0.6; }
+  a.page-footer__copyright-link:active,
+  a.page-footer__logo:active {
+    opacity: 0.3; } }
