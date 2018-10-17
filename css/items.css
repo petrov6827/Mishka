@@ -72,7 +72,8 @@
   height: 50px;
   border: solid 2px #434343;
   display: block;
-  position: relative; }
+  position: relative;
+  padding: 15px; }
 
 .item__img {
   margin: 0; }
