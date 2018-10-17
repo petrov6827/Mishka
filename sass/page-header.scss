@@ -30,7 +30,8 @@
     }
 }
 
-.page-header__logo {
+.logo {
+    display: inherit;
     text-align: center;
     width: auto;
     margin: 0 auto;
@@ -101,11 +102,12 @@
     }
 
     .logo {
+        text-align: left;
         display: block;
         position: relative;
-        margin-top: 22px;
         padding-bottom: 10px;
         border-bottom: 1px solid #ebebeb;
+        padding-top: 12px;
     }
 
     .main-nav {
@@ -186,6 +188,7 @@
 
     .logo {
         margin-top: 0;
+        padding-top: 0;
     }
 
     .logo picture {
