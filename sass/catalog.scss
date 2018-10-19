@@ -16,6 +16,8 @@
 .catalog__items .item__img {
     margin-left: 0;
     margin-right: 0;
+    width: auto;
+
 }
 
 .item__img {
@@ -215,6 +217,8 @@ a.make__order {
         color: #444444;
         font-family: "Open Sans";
         font-weight: bold;
+        margin: 30px;
+        padding: 20px;
     }
 }
 
@@ -600,6 +604,7 @@ a.make__order {
     .production ul {
         margin-left: 0;
         margin-right: 0;
+        margin-top: -45px;
     }
 
     .make__order:hover {
