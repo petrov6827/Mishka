@@ -36,7 +36,7 @@
 .main-nav__toggle,
 .main-nav__close {
   position: absolute;
-  right: 20%;
+  right: 30px;
   top: 30px;
   font-size: 30px;
   text-decoration: none;

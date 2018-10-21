@@ -36,23 +36,32 @@
 }
 
 .contacts__write {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    margin-bottom: 50px;
+    border: solid 2px #434343;
+    padding: 15px;
     font-size: 16px;
     line-height: 16px;
-    color: rgb(68,68,68);
+    color: #444444;
     background-color: #ffffff;
     font-family: "Open Sans";
     font-weight: bold;
-    width: 260px;
+    max-width: 225px;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 }
 
-.btn {
-    height: 50px;
-    border: solid 2px #434343;
-    display: block;
-    position: relative;
-    margin:0 auto;
-    margin-bottom: 38px;
+.contacts__write:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.contacts__write:active {
+    background-color: #444444;
+    color: #5e5e5e;
 }
 
 .contacts__map {
@@ -145,6 +154,11 @@
     .contacts__write {
         margin-bottom: 57px;
     }
+
+    
+    a.contacts__write {
+        display: block;
+    }
 }
 
 //desktop
@@ -201,4 +215,6 @@
     .contacts__write {
         margin-left: 0;
     }
+
+
 }

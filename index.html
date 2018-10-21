@@ -45,46 +45,43 @@
         </header>
 
         <main>
-            <div class="main__background">
+            <div class="main__theme">
                 <h1 class="main__slogan">Милые штуки ручной<br>работы для дома</h1>    
-                <picture>
-                    <source media="(min-width: 1150px)" srcset="img/hero-desktop.png">
-                    <source media="(min-width: 768px)" srcset="img/hero-mobile.png">
-                    <img src="img/hero-mobile.png"  width="575" height="373">
-                </picture>
-                <a class="main__interior" type="button" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></a>
-                <a class="main__toy" type="button" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></a>
-                <img class="zigzag-fill" src="img/zigzag-fill.png">
+                <div class="main__buttons">
+                    <a class="main__interior" href="#">Предметы<br>интерьера<img class="interior__img" src="img/interior.svg.png" width="40px" height="62px"></a>
+                    <a class="main__toy" href="#">Детские<br>игрушки<img class="toy__img" src="img/toy-svg.png"></a>
+                </div>
+                <div class="zigzag-fill">
+                    <img src="img/zigzag-fill.png">
+                </div>
             </div>
         </main>
 
         <section class="items">       
             <h1 class="items__title">Вязаные корзинки</h1>
             <p class="items__top-sales">Товар недели</p>
-            <p class="items__about">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-            <table class="items__baskets">
-                <tr>
-                    <td>Цвет:</td>
-                    <td>"Тиффани"/серый</td>
-                </tr>                
-                <tr>
-                    <td>Диаметр:</td>
-                    <td>25см</td>
-                </tr>
-                <tr>
-                    <td>Высота:</td>
-                    <td>15см</td>
-                </tr>
-            </table>
-            <div class="item__img">
-                <picture>
-                    <source media="(min-width: 1150px)" srcset="img/basket-desktop.png">
-                    <source media="(min-width: 768px)" srcset="img/basket-tablet.png">
-                    <img src="img/basket.png" width="260" height="315">
-                </picture>
+            <div class="items__info">
+                <p class="items__about">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+                <table class="items__baskets">
+                    <tr>
+                        <td>Цвет:</td>
+                        <td>"Тиффани"/серый</td>
+                    </tr>                
+                    <tr>
+                        <td>Диаметр:</td>
+                        <td>25см</td>
+                    </tr>
+                    <tr>
+                        <td>Высота:</td>
+                        <td>15см</td>
+                    </tr>
+                </table>
+                <div class="item__img">
+                    <img src="img/basket.png" width="260" height="315">                    
+                </div>
+                <p class="items__price">Цена: 990 руб.</p>
+                <a class="items__buy" href="form.html">Заказать</a>
             </div>
-            <p class="items__price">Цена: 990 руб.</p>
-            <button class="items__buy  btn" type="button" href="form.html">Заказать</button>
             <img class="zigzag-line" src="img/zigzag-line.png">
         </section>
             
@@ -104,11 +101,13 @@
             <img class="reviews__background" src="img/review.png" width="350" height="457">
             <div class="reviews__wrapper">
                 <h1 class="reviews__title">Отзывы</h1>
-                <button class="reviews__write-tablet  btn" type="button" href="#">Написать</button>
+
+
                 <input type="radio" name="reviews" id="slide1" checked> 
                 <!--добавить привязку к радиобатонам-->
                 <input type="radio" name="reviews" id="slide2"> 
-                <input type="radio" name="reviews" id="slide3">                
+                <input type="radio" name="reviews" id="slide3">
+
                 <div class="slider">
                     <div class="slides slide1">
                         <blockquote class="reviews__slide1">
@@ -120,16 +119,22 @@
                     <div class="slides slide2">второй отзыв</div>
                     <div class="slides slide3">третий отзыв</div>
                 </div>
+
                 <div class="controls">
                     <label for="slide1"></label>
                     <label for="slide2"></label>
                     <label for="slide3"></label>
                 </div>
+
                 <button class="reviews__preview" href="#"><img class="arrow" src="img/icons/arrow-left.svg"></button>
-                <button class="reviews__next" href="#"><img class="arrow" src="img/icons/arrow-right.svg"></button>                
-                <button class="reviews__write-mobile  btn" type="button" href="#">Написать</button>
+                <button class="reviews__next" href="#"><img class="arrow" src="img/icons/arrow-right.svg"></button>   
+
+                <a class="reviews__write" href="#">Написать</a>
                 <img class="zigzag" src="img/zigzag.png" alt="zig-zag">
             </div>
+
+
+
             <img class="zigzag-line" src="img/zigzag-line.png">
         </section> 
 
@@ -156,7 +161,7 @@
                 <iframe class="map__tablet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003192!2d30.32085871623127!3d59.93871916905404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x62740c0ffcd8a91f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsIDEwMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTE4Ng!5e0!3m2!1sru!2sru!4v1535660444247" width="768" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <iframe class="map__desktop" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533268!2d30.32085871637125!3d59.938716481876156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x62740c0ffcd8a91f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsIDEwMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTE4Ng!5e0!3m2!1sru!2sru!4v1536239385585" width="525" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <button class="contacts__write btn" type="button" href="#">Напишите нам</button>
+            <a class="contacts__write" href="#">Напишите нам</a>
         </div>
 
         <footer class="page-footer">
