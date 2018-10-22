@@ -1,7 +1,7 @@
 
 
-var nav = document.querySelector('.menu');                    //меню
-var navCatalog = document.querySelector('.menu--close')
+var nav = document.querySelector('.menu');
+var nav2 = document.querySelector('.menu__catalog'); 
 var navToggle = document.querySelector('.main-nav__toggle');  //открыть меню
 var navClose = document.querySelector('.main-nav__close');    //закрыть меню
 
@@ -10,7 +10,7 @@ navToggle.addEventListener('click', function(event) {         //клик на т
     navToggle.classList.add('main-nav__toggle--hidden');      //добавить класс к тоглу
     navClose.classList.remove('main-nav__close--hidden');     //убрать класс у кнопки закрыть
     nav.classList.add('menu--show');
-    navCatalog.classList.add('menu--show');                   //+ класс показывающий меню
+    nav2.classList.add('menu__catalog--show');                  //+ класс показывающий меню
 });
  
 navClose.addEventListener('click', function(event) {          //клик на закрыть
@@ -18,7 +18,7 @@ navClose.addEventListener('click', function(event) {          //клик на з
     navToggle.classList.remove('main-nav__toggle--hidden');   //убрать класс у тогла
     navClose.classList.add('main-nav__close--hidden');        //добавить класс кнопке закрыть              
     nav.classList.remove('menu--show');                       //убрать класс показывающий меню
-    navCatalog.classList.remove('menu--show'); 
+    nav2.classList.remove('menu__catalog--show');
 });
 
 

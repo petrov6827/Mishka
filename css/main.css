@@ -103,7 +103,9 @@
     right: 0;
     top: 315px; }
   .zigzag-fill {
-    margin-top: -60px; }
+    margin-top: -45px;
+    zoom: 1.5;
+    margin-left: -2px; }
   .background-mobile {
     display: none; }
   .background-desktop img {
@@ -146,7 +148,9 @@
   .main__interior {
     top: 315px; }
   .zigzag-fill {
-    bottom: 60px; }
+    margin-top: -32px;
+    zoom: 2.3;
+    margin-left: -2px; }
   .main__interior:hover {
     background-color: #58d5bc;
     top: 310px;
