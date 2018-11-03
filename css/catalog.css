@@ -150,7 +150,6 @@ a.make__order {
     text-transform: uppercase;
     color: black;
     border: solid 2px #434343;
-    margin: 30px;
     margin-top: 0; }
   .make__order:hover,
   .btn:hover {
@@ -167,7 +166,6 @@ a.make__order {
     color: #444444;
     font-family: "Open Sans";
     font-weight: bold;
-    margin: 30px;
     padding: 20px; } }
 
 @media (min-width: 768px) {
