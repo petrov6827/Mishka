@@ -59,11 +59,17 @@
   float: right;
   margin-top: -30px; }
 
+.icon {
+  zoom: 0.1;
+  color: #f1f1f1;
+  position: absolute;
+  left: 4%; }
+
 @media (max-width: 767px) {
   .main-nav {
     margin: 0 auto; }
   .main__theme {
-    background: url("img/main-mobile.png") no-repeat center #f1f1f1;
+    background: #f1f1f1 url("img/hero-mobile.jpg") no-repeat 50% top;
     height: 505px; }
   .item__img {
     width: 260px; }
@@ -136,7 +142,12 @@
     margin-top: -5px;
     transition: 0.2s; }
   .main__toy:active {
-    opacity: 0.3; } }
+    opacity: 0.3; }
+  .icon {
+    margin: 60px 275px; }
+  .icon-cart {
+    margin: 50px;
+    margin-left: -560px; } }
 
 @media (min-width: 1150px) {
   .menu {

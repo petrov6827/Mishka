@@ -68,6 +68,13 @@
     margin-top: -30px;
 }
 
+.icon {
+    zoom: 0.1;
+    color: #f1f1f1;
+    position: absolute;
+    left: 4%;
+}
+
 //mobile
 @media (max-width: 767px) {
     .main-nav {
@@ -75,7 +82,7 @@
     }   
 
     .main__theme {
-        background: url('img/main-mobile.png') no-repeat center #f1f1f1;
+        background: #f1f1f1 url('img/hero-mobile.jpg') no-repeat 50% top;
         height: 505px;
     }
 
@@ -179,7 +186,17 @@
 
     .main__toy:active {
         opacity: 0.3;
-    } 
+    }
+
+    .icon {        
+        margin: 60px 275px;
+    }
+
+    .icon-cart {
+        margin: 50px;
+        margin-left: -560px;
+    }
+
 }
 
 
